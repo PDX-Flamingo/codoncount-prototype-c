@@ -1,1 +1,0 @@
-/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/test_object.dir/test/suites/api/test_object.c.o  -o bin/test_object  lib/libjansson.a 
