@@ -135,7 +135,7 @@ void count_codons(const void * sequence)
     
     display_codons(codoncount);
     
-    printf("%f seconds counting codons\n", timeElapsed);
+    printf("%6.6f seconds counting codons\n", timeElapsed);
     
     printf("%d entries\n", trie_num_entries(codoncount));
     
