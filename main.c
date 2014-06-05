@@ -18,6 +18,8 @@
 #include <unistd.h>
 #include <sys/mman.h>
 
+#include <jansson.h>
+
 void display_codons(Trie * codoncount)
 {
     printf("TTT: %d\n", (int) trie_lookup(codoncount, "TTT"));

@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/test_loadb.dir/test/suites/api/test_loadb.c.o  -o bin/test_loadb  lib/libjansson.a 

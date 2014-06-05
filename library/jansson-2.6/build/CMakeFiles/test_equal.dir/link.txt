@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/test_equal.dir/test/suites/api/test_equal.c.o  -o bin/test_equal  lib/libjansson.a 

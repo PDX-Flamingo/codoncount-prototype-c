@@ -1,0 +1,2838 @@
+Start testing: Jun 05 14:44 PDT
+----------------------------------------------------------
+1/189 Testing: test_array
+1/189 Test: test_array
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/test_array"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"test_array" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_array" end time: Jun 05 14:44 PDT
+"test_array" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/189 Testing: test_copy
+2/189 Test: test_copy
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/test_copy"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"test_copy" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_copy" end time: Jun 05 14:44 PDT
+"test_copy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/189 Testing: test_dump
+3/189 Test: test_dump
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/test_dump"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"test_dump" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_dump" end time: Jun 05 14:44 PDT
+"test_dump" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/189 Testing: test_dump_callback
+4/189 Test: test_dump_callback
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/test_dump_callback"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"test_dump_callback" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_dump_callback" end time: Jun 05 14:44 PDT
+"test_dump_callback" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/189 Testing: test_equal
+5/189 Test: test_equal
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/test_equal"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"test_equal" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_equal" end time: Jun 05 14:44 PDT
+"test_equal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/189 Testing: test_load
+6/189 Test: test_load
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/test_load"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"test_load" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_load" end time: Jun 05 14:44 PDT
+"test_load" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/189 Testing: test_loadb
+7/189 Test: test_loadb
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/test_loadb"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"test_loadb" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_loadb" end time: Jun 05 14:44 PDT
+"test_loadb" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/189 Testing: test_number
+8/189 Test: test_number
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/test_number"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"test_number" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_number" end time: Jun 05 14:44 PDT
+"test_number" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/189 Testing: test_object
+9/189 Test: test_object
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/test_object"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"test_object" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_object" end time: Jun 05 14:44 PDT
+"test_object" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/189 Testing: test_pack
+10/189 Test: test_pack
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/test_pack"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"test_pack" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_pack" end time: Jun 05 14:44 PDT
+"test_pack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/189 Testing: test_simple
+11/189 Test: test_simple
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/test_simple"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"test_simple" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_simple" end time: Jun 05 14:44 PDT
+"test_simple" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/189 Testing: test_unpack
+12/189 Test: test_unpack
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/test_unpack"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"test_unpack" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_unpack" end time: Jun 05 14:44 PDT
+"test_unpack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/189 Testing: test_memory_funcs
+13/189 Test: test_memory_funcs
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/test_memory_funcs"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"test_memory_funcs" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_memory_funcs" end time: Jun 05 14:44 PDT
+"test_memory_funcs" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/189 Testing: valid__complex-array
+14/189 Test: valid__complex-array
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/complex-array"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__complex-array" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__complex-array" end time: Jun 05 14:44 PDT
+"valid__complex-array" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/189 Testing: valid__complex-array__strip
+15/189 Test: valid__complex-array__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/complex-array"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__complex-array__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__complex-array__strip" end time: Jun 05 14:44 PDT
+"valid__complex-array__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/189 Testing: valid__empty-array
+16/189 Test: valid__empty-array
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/empty-array"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__empty-array" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__empty-array" end time: Jun 05 14:44 PDT
+"valid__empty-array" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/189 Testing: valid__empty-array__strip
+17/189 Test: valid__empty-array__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/empty-array"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__empty-array__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__empty-array__strip" end time: Jun 05 14:44 PDT
+"valid__empty-array__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/189 Testing: valid__empty-object
+18/189 Test: valid__empty-object
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/empty-object"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__empty-object" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__empty-object" end time: Jun 05 14:44 PDT
+"valid__empty-object" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/189 Testing: valid__empty-object__strip
+19/189 Test: valid__empty-object__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/empty-object"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__empty-object__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__empty-object__strip" end time: Jun 05 14:44 PDT
+"valid__empty-object__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/189 Testing: valid__empty-object-in-array
+20/189 Test: valid__empty-object-in-array
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/empty-object-in-array"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__empty-object-in-array" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"valid__empty-object-in-array" end time: Jun 05 14:44 PDT
+"valid__empty-object-in-array" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/189 Testing: valid__empty-object-in-array__strip
+21/189 Test: valid__empty-object-in-array__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/empty-object-in-array"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__empty-object-in-array__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__empty-object-in-array__strip" end time: Jun 05 14:44 PDT
+"valid__empty-object-in-array__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/189 Testing: valid__empty-string
+22/189 Test: valid__empty-string
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/empty-string"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__empty-string" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__empty-string" end time: Jun 05 14:44 PDT
+"valid__empty-string" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/189 Testing: valid__empty-string__strip
+23/189 Test: valid__empty-string__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/empty-string"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__empty-string__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__empty-string__strip" end time: Jun 05 14:44 PDT
+"valid__empty-string__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/189 Testing: valid__escaped-utf-control-char
+24/189 Test: valid__escaped-utf-control-char
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/escaped-utf-control-char"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__escaped-utf-control-char" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__escaped-utf-control-char" end time: Jun 05 14:44 PDT
+"valid__escaped-utf-control-char" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/189 Testing: valid__escaped-utf-control-char__strip
+25/189 Test: valid__escaped-utf-control-char__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/escaped-utf-control-char"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__escaped-utf-control-char__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__escaped-utf-control-char__strip" end time: Jun 05 14:44 PDT
+"valid__escaped-utf-control-char__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/189 Testing: valid__false
+26/189 Test: valid__false
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/false"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__false" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__false" end time: Jun 05 14:44 PDT
+"valid__false" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/189 Testing: valid__false__strip
+27/189 Test: valid__false__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/false"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__false__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__false__strip" end time: Jun 05 14:44 PDT
+"valid__false__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/189 Testing: valid__negative-int
+28/189 Test: valid__negative-int
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/negative-int"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__negative-int" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"valid__negative-int" end time: Jun 05 14:44 PDT
+"valid__negative-int" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/189 Testing: valid__negative-int__strip
+29/189 Test: valid__negative-int__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/negative-int"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__negative-int__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__negative-int__strip" end time: Jun 05 14:44 PDT
+"valid__negative-int__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/189 Testing: valid__negative-one
+30/189 Test: valid__negative-one
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/negative-one"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__negative-one" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__negative-one" end time: Jun 05 14:44 PDT
+"valid__negative-one" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/189 Testing: valid__negative-one__strip
+31/189 Test: valid__negative-one__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/negative-one"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__negative-one__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__negative-one__strip" end time: Jun 05 14:44 PDT
+"valid__negative-one__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/189 Testing: valid__negative-zero
+32/189 Test: valid__negative-zero
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/negative-zero"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__negative-zero" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__negative-zero" end time: Jun 05 14:44 PDT
+"valid__negative-zero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/189 Testing: valid__negative-zero__strip
+33/189 Test: valid__negative-zero__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/negative-zero"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__negative-zero__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__negative-zero__strip" end time: Jun 05 14:44 PDT
+"valid__negative-zero__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/189 Testing: valid__null
+34/189 Test: valid__null
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/null"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__null" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__null" end time: Jun 05 14:44 PDT
+"valid__null" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/189 Testing: valid__null__strip
+35/189 Test: valid__null__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/null"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__null__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"valid__null__strip" end time: Jun 05 14:44 PDT
+"valid__null__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/189 Testing: valid__one-byte-utf-8
+36/189 Test: valid__one-byte-utf-8
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/one-byte-utf-8"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__one-byte-utf-8" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__one-byte-utf-8" end time: Jun 05 14:44 PDT
+"valid__one-byte-utf-8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/189 Testing: valid__one-byte-utf-8__strip
+37/189 Test: valid__one-byte-utf-8__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/one-byte-utf-8"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__one-byte-utf-8__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__one-byte-utf-8__strip" end time: Jun 05 14:44 PDT
+"valid__one-byte-utf-8__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/189 Testing: valid__real-capital-e
+38/189 Test: valid__real-capital-e
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/real-capital-e"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__real-capital-e" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__real-capital-e" end time: Jun 05 14:44 PDT
+"valid__real-capital-e" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/189 Testing: valid__real-capital-e__strip
+39/189 Test: valid__real-capital-e__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/real-capital-e"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__real-capital-e__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__real-capital-e__strip" end time: Jun 05 14:44 PDT
+"valid__real-capital-e__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/189 Testing: valid__real-capital-e-negative-exponent
+40/189 Test: valid__real-capital-e-negative-exponent
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/real-capital-e-negative-exponent"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__real-capital-e-negative-exponent" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__real-capital-e-negative-exponent" end time: Jun 05 14:44 PDT
+"valid__real-capital-e-negative-exponent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/189 Testing: valid__real-capital-e-negative-exponent__strip
+41/189 Test: valid__real-capital-e-negative-exponent__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/real-capital-e-negative-exponent"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__real-capital-e-negative-exponent__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__real-capital-e-negative-exponent__strip" end time: Jun 05 14:44 PDT
+"valid__real-capital-e-negative-exponent__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/189 Testing: valid__real-capital-e-positive-exponent
+42/189 Test: valid__real-capital-e-positive-exponent
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/real-capital-e-positive-exponent"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__real-capital-e-positive-exponent" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__real-capital-e-positive-exponent" end time: Jun 05 14:44 PDT
+"valid__real-capital-e-positive-exponent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/189 Testing: valid__real-capital-e-positive-exponent__strip
+43/189 Test: valid__real-capital-e-positive-exponent__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/real-capital-e-positive-exponent"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__real-capital-e-positive-exponent__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__real-capital-e-positive-exponent__strip" end time: Jun 05 14:44 PDT
+"valid__real-capital-e-positive-exponent__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/189 Testing: valid__real-exponent
+44/189 Test: valid__real-exponent
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/real-exponent"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__real-exponent" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__real-exponent" end time: Jun 05 14:44 PDT
+"valid__real-exponent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/189 Testing: valid__real-exponent__strip
+45/189 Test: valid__real-exponent__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/real-exponent"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__real-exponent__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__real-exponent__strip" end time: Jun 05 14:44 PDT
+"valid__real-exponent__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/189 Testing: valid__real-fraction-exponent
+46/189 Test: valid__real-fraction-exponent
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/real-fraction-exponent"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__real-fraction-exponent" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__real-fraction-exponent" end time: Jun 05 14:44 PDT
+"valid__real-fraction-exponent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/189 Testing: valid__real-fraction-exponent__strip
+47/189 Test: valid__real-fraction-exponent__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/real-fraction-exponent"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__real-fraction-exponent__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"valid__real-fraction-exponent__strip" end time: Jun 05 14:44 PDT
+"valid__real-fraction-exponent__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/189 Testing: valid__real-negative-exponent
+48/189 Test: valid__real-negative-exponent
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/real-negative-exponent"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__real-negative-exponent" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"valid__real-negative-exponent" end time: Jun 05 14:44 PDT
+"valid__real-negative-exponent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/189 Testing: valid__real-negative-exponent__strip
+49/189 Test: valid__real-negative-exponent__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/real-negative-exponent"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__real-negative-exponent__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__real-negative-exponent__strip" end time: Jun 05 14:44 PDT
+"valid__real-negative-exponent__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/189 Testing: valid__real-positive-exponent
+50/189 Test: valid__real-positive-exponent
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/real-positive-exponent"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__real-positive-exponent" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__real-positive-exponent" end time: Jun 05 14:44 PDT
+"valid__real-positive-exponent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/189 Testing: valid__real-positive-exponent__strip
+51/189 Test: valid__real-positive-exponent__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/real-positive-exponent"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__real-positive-exponent__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__real-positive-exponent__strip" end time: Jun 05 14:44 PDT
+"valid__real-positive-exponent__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/189 Testing: valid__real-underflow
+52/189 Test: valid__real-underflow
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/real-underflow"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__real-underflow" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__real-underflow" end time: Jun 05 14:44 PDT
+"valid__real-underflow" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/189 Testing: valid__real-underflow__strip
+53/189 Test: valid__real-underflow__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/real-underflow"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__real-underflow__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__real-underflow__strip" end time: Jun 05 14:44 PDT
+"valid__real-underflow__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/189 Testing: valid__short-string
+54/189 Test: valid__short-string
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/short-string"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__short-string" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"valid__short-string" end time: Jun 05 14:44 PDT
+"valid__short-string" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/189 Testing: valid__short-string__strip
+55/189 Test: valid__short-string__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/short-string"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__short-string__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"valid__short-string__strip" end time: Jun 05 14:44 PDT
+"valid__short-string__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/189 Testing: valid__simple-ascii-string
+56/189 Test: valid__simple-ascii-string
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/simple-ascii-string"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__simple-ascii-string" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"valid__simple-ascii-string" end time: Jun 05 14:44 PDT
+"valid__simple-ascii-string" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/189 Testing: valid__simple-ascii-string__strip
+57/189 Test: valid__simple-ascii-string__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/simple-ascii-string"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__simple-ascii-string__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__simple-ascii-string__strip" end time: Jun 05 14:44 PDT
+"valid__simple-ascii-string__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/189 Testing: valid__simple-int-0
+58/189 Test: valid__simple-int-0
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/simple-int-0"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__simple-int-0" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__simple-int-0" end time: Jun 05 14:44 PDT
+"valid__simple-int-0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/189 Testing: valid__simple-int-0__strip
+59/189 Test: valid__simple-int-0__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/simple-int-0"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__simple-int-0__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__simple-int-0__strip" end time: Jun 05 14:44 PDT
+"valid__simple-int-0__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/189 Testing: valid__simple-int-1
+60/189 Test: valid__simple-int-1
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/simple-int-1"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__simple-int-1" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__simple-int-1" end time: Jun 05 14:44 PDT
+"valid__simple-int-1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/189 Testing: valid__simple-int-1__strip
+61/189 Test: valid__simple-int-1__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/simple-int-1"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__simple-int-1__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__simple-int-1__strip" end time: Jun 05 14:44 PDT
+"valid__simple-int-1__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/189 Testing: valid__simple-int-123
+62/189 Test: valid__simple-int-123
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/simple-int-123"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__simple-int-123" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__simple-int-123" end time: Jun 05 14:44 PDT
+"valid__simple-int-123" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/189 Testing: valid__simple-int-123__strip
+63/189 Test: valid__simple-int-123__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/simple-int-123"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__simple-int-123__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__simple-int-123__strip" end time: Jun 05 14:44 PDT
+"valid__simple-int-123__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/189 Testing: valid__simple-object
+64/189 Test: valid__simple-object
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/simple-object"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__simple-object" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__simple-object" end time: Jun 05 14:44 PDT
+"valid__simple-object" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/189 Testing: valid__simple-object__strip
+65/189 Test: valid__simple-object__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/simple-object"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__simple-object__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__simple-object__strip" end time: Jun 05 14:44 PDT
+"valid__simple-object__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+66/189 Testing: valid__simple-real
+66/189 Test: valid__simple-real
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/simple-real"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__simple-real" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__simple-real" end time: Jun 05 14:44 PDT
+"valid__simple-real" time elapsed: 00:00:00
+----------------------------------------------------------
+
+67/189 Testing: valid__simple-real__strip
+67/189 Test: valid__simple-real__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/simple-real"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__simple-real__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__simple-real__strip" end time: Jun 05 14:44 PDT
+"valid__simple-real__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+68/189 Testing: valid__string-escapes
+68/189 Test: valid__string-escapes
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/string-escapes"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__string-escapes" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__string-escapes" end time: Jun 05 14:44 PDT
+"valid__string-escapes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+69/189 Testing: valid__string-escapes__strip
+69/189 Test: valid__string-escapes__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/string-escapes"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__string-escapes__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__string-escapes__strip" end time: Jun 05 14:44 PDT
+"valid__string-escapes__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+70/189 Testing: valid__three-byte-utf-8
+70/189 Test: valid__three-byte-utf-8
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/three-byte-utf-8"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__three-byte-utf-8" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__three-byte-utf-8" end time: Jun 05 14:44 PDT
+"valid__three-byte-utf-8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+71/189 Testing: valid__three-byte-utf-8__strip
+71/189 Test: valid__three-byte-utf-8__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/three-byte-utf-8"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__three-byte-utf-8__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__three-byte-utf-8__strip" end time: Jun 05 14:44 PDT
+"valid__three-byte-utf-8__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+72/189 Testing: valid__true
+72/189 Test: valid__true
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/true"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__true" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__true" end time: Jun 05 14:44 PDT
+"valid__true" time elapsed: 00:00:00
+----------------------------------------------------------
+
+73/189 Testing: valid__true__strip
+73/189 Test: valid__true__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/true"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__true__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"valid__true__strip" end time: Jun 05 14:44 PDT
+"valid__true__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+74/189 Testing: valid__two-byte-utf-8
+74/189 Test: valid__two-byte-utf-8
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/two-byte-utf-8"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__two-byte-utf-8" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__two-byte-utf-8" end time: Jun 05 14:44 PDT
+"valid__two-byte-utf-8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+75/189 Testing: valid__two-byte-utf-8__strip
+75/189 Test: valid__two-byte-utf-8__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/two-byte-utf-8"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__two-byte-utf-8__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__two-byte-utf-8__strip" end time: Jun 05 14:44 PDT
+"valid__two-byte-utf-8__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+76/189 Testing: valid__utf-8-string
+76/189 Test: valid__utf-8-string
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/utf-8-string"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__utf-8-string" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__utf-8-string" end time: Jun 05 14:44 PDT
+"valid__utf-8-string" time elapsed: 00:00:00
+----------------------------------------------------------
+
+77/189 Testing: valid__utf-8-string__strip
+77/189 Test: valid__utf-8-string__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/utf-8-string"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__utf-8-string__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__utf-8-string__strip" end time: Jun 05 14:44 PDT
+"valid__utf-8-string__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+78/189 Testing: valid__utf-surrogate-four-byte-encoding
+78/189 Test: valid__utf-surrogate-four-byte-encoding
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/utf-surrogate-four-byte-encoding"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__utf-surrogate-four-byte-encoding" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__utf-surrogate-four-byte-encoding" end time: Jun 05 14:44 PDT
+"valid__utf-surrogate-four-byte-encoding" time elapsed: 00:00:00
+----------------------------------------------------------
+
+79/189 Testing: valid__utf-surrogate-four-byte-encoding__strip
+79/189 Test: valid__utf-surrogate-four-byte-encoding__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/valid/utf-surrogate-four-byte-encoding"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"valid__utf-surrogate-four-byte-encoding__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"valid__utf-surrogate-four-byte-encoding__strip" end time: Jun 05 14:44 PDT
+"valid__utf-surrogate-four-byte-encoding__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+80/189 Testing: invalid__apostrophe
+80/189 Test: invalid__apostrophe
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/apostrophe"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__apostrophe" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__apostrophe" end time: Jun 05 14:44 PDT
+"invalid__apostrophe" time elapsed: 00:00:00
+----------------------------------------------------------
+
+81/189 Testing: invalid__apostrophe__strip
+81/189 Test: invalid__apostrophe__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/apostrophe"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__apostrophe__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__apostrophe__strip" end time: Jun 05 14:44 PDT
+"invalid__apostrophe__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+82/189 Testing: invalid__ascii-unicode-identifier
+82/189 Test: invalid__ascii-unicode-identifier
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/ascii-unicode-identifier"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__ascii-unicode-identifier" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__ascii-unicode-identifier" end time: Jun 05 14:44 PDT
+"invalid__ascii-unicode-identifier" time elapsed: 00:00:00
+----------------------------------------------------------
+
+83/189 Testing: invalid__ascii-unicode-identifier__strip
+83/189 Test: invalid__ascii-unicode-identifier__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/ascii-unicode-identifier"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__ascii-unicode-identifier__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__ascii-unicode-identifier__strip" end time: Jun 05 14:44 PDT
+"invalid__ascii-unicode-identifier__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+84/189 Testing: invalid__brace-comma
+84/189 Test: invalid__brace-comma
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/brace-comma"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__brace-comma" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__brace-comma" end time: Jun 05 14:44 PDT
+"invalid__brace-comma" time elapsed: 00:00:00
+----------------------------------------------------------
+
+85/189 Testing: invalid__brace-comma__strip
+85/189 Test: invalid__brace-comma__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/brace-comma"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__brace-comma__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__brace-comma__strip" end time: Jun 05 14:44 PDT
+"invalid__brace-comma__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+86/189 Testing: invalid__bracket-comma
+86/189 Test: invalid__bracket-comma
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/bracket-comma"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__bracket-comma" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__bracket-comma" end time: Jun 05 14:44 PDT
+"invalid__bracket-comma" time elapsed: 00:00:00
+----------------------------------------------------------
+
+87/189 Testing: invalid__bracket-comma__strip
+87/189 Test: invalid__bracket-comma__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/bracket-comma"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__bracket-comma__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__bracket-comma__strip" end time: Jun 05 14:44 PDT
+"invalid__bracket-comma__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+88/189 Testing: invalid__bracket-one-comma
+88/189 Test: invalid__bracket-one-comma
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/bracket-one-comma"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__bracket-one-comma" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__bracket-one-comma" end time: Jun 05 14:44 PDT
+"invalid__bracket-one-comma" time elapsed: 00:00:00
+----------------------------------------------------------
+
+89/189 Testing: invalid__bracket-one-comma__strip
+89/189 Test: invalid__bracket-one-comma__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/bracket-one-comma"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__bracket-one-comma__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__bracket-one-comma__strip" end time: Jun 05 14:44 PDT
+"invalid__bracket-one-comma__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+90/189 Testing: invalid__empty
+90/189 Test: invalid__empty
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/empty"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__empty" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__empty" end time: Jun 05 14:44 PDT
+"invalid__empty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+91/189 Testing: invalid__empty__strip
+91/189 Test: invalid__empty__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/empty"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__empty__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__empty__strip" end time: Jun 05 14:44 PDT
+"invalid__empty__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+92/189 Testing: invalid__escaped-null-byte-in-string
+92/189 Test: invalid__escaped-null-byte-in-string
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/escaped-null-byte-in-string"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__escaped-null-byte-in-string" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__escaped-null-byte-in-string" end time: Jun 05 14:44 PDT
+"invalid__escaped-null-byte-in-string" time elapsed: 00:00:00
+----------------------------------------------------------
+
+93/189 Testing: invalid__escaped-null-byte-in-string__strip
+93/189 Test: invalid__escaped-null-byte-in-string__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/escaped-null-byte-in-string"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__escaped-null-byte-in-string__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__escaped-null-byte-in-string__strip" end time: Jun 05 14:44 PDT
+"invalid__escaped-null-byte-in-string__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+94/189 Testing: invalid__extra-comma-in-array
+94/189 Test: invalid__extra-comma-in-array
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/extra-comma-in-array"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__extra-comma-in-array" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__extra-comma-in-array" end time: Jun 05 14:44 PDT
+"invalid__extra-comma-in-array" time elapsed: 00:00:00
+----------------------------------------------------------
+
+95/189 Testing: invalid__extra-comma-in-array__strip
+95/189 Test: invalid__extra-comma-in-array__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/extra-comma-in-array"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__extra-comma-in-array__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__extra-comma-in-array__strip" end time: Jun 05 14:44 PDT
+"invalid__extra-comma-in-array__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+96/189 Testing: invalid__extra-comma-in-multiline-array
+96/189 Test: invalid__extra-comma-in-multiline-array
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/extra-comma-in-multiline-array"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__extra-comma-in-multiline-array" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__extra-comma-in-multiline-array" end time: Jun 05 14:44 PDT
+"invalid__extra-comma-in-multiline-array" time elapsed: 00:00:00
+----------------------------------------------------------
+
+97/189 Testing: invalid__extra-comma-in-multiline-array__strip
+97/189 Test: invalid__extra-comma-in-multiline-array__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/extra-comma-in-multiline-array"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__extra-comma-in-multiline-array__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__extra-comma-in-multiline-array__strip" end time: Jun 05 14:44 PDT
+"invalid__extra-comma-in-multiline-array__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+98/189 Testing: invalid__garbage-after-newline
+98/189 Test: invalid__garbage-after-newline
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/garbage-after-newline"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__garbage-after-newline" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__garbage-after-newline" end time: Jun 05 14:44 PDT
+"invalid__garbage-after-newline" time elapsed: 00:00:00
+----------------------------------------------------------
+
+99/189 Testing: invalid__garbage-after-newline__strip
+99/189 Test: invalid__garbage-after-newline__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/garbage-after-newline"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__garbage-after-newline__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__garbage-after-newline__strip" end time: Jun 05 14:44 PDT
+"invalid__garbage-after-newline__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+100/189 Testing: invalid__garbage-at-the-end
+100/189 Test: invalid__garbage-at-the-end
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/garbage-at-the-end"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__garbage-at-the-end" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__garbage-at-the-end" end time: Jun 05 14:44 PDT
+"invalid__garbage-at-the-end" time elapsed: 00:00:00
+----------------------------------------------------------
+
+101/189 Testing: invalid__garbage-at-the-end__strip
+101/189 Test: invalid__garbage-at-the-end__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/garbage-at-the-end"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__garbage-at-the-end__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__garbage-at-the-end__strip" end time: Jun 05 14:44 PDT
+"invalid__garbage-at-the-end__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+102/189 Testing: invalid__integer-starting-with-zero
+102/189 Test: invalid__integer-starting-with-zero
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/integer-starting-with-zero"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__integer-starting-with-zero" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__integer-starting-with-zero" end time: Jun 05 14:44 PDT
+"invalid__integer-starting-with-zero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+103/189 Testing: invalid__integer-starting-with-zero__strip
+103/189 Test: invalid__integer-starting-with-zero__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/integer-starting-with-zero"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__integer-starting-with-zero__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__integer-starting-with-zero__strip" end time: Jun 05 14:44 PDT
+"invalid__integer-starting-with-zero__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+104/189 Testing: invalid__invalid-escape
+104/189 Test: invalid__invalid-escape
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/invalid-escape"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__invalid-escape" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__invalid-escape" end time: Jun 05 14:44 PDT
+"invalid__invalid-escape" time elapsed: 00:00:00
+----------------------------------------------------------
+
+105/189 Testing: invalid__invalid-escape__strip
+105/189 Test: invalid__invalid-escape__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/invalid-escape"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__invalid-escape__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__invalid-escape__strip" end time: Jun 05 14:44 PDT
+"invalid__invalid-escape__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+106/189 Testing: invalid__invalid-identifier
+106/189 Test: invalid__invalid-identifier
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/invalid-identifier"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__invalid-identifier" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__invalid-identifier" end time: Jun 05 14:44 PDT
+"invalid__invalid-identifier" time elapsed: 00:00:00
+----------------------------------------------------------
+
+107/189 Testing: invalid__invalid-identifier__strip
+107/189 Test: invalid__invalid-identifier__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/invalid-identifier"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__invalid-identifier__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__invalid-identifier__strip" end time: Jun 05 14:44 PDT
+"invalid__invalid-identifier__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+108/189 Testing: invalid__invalid-negative-integer
+108/189 Test: invalid__invalid-negative-integer
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/invalid-negative-integer"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__invalid-negative-integer" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__invalid-negative-integer" end time: Jun 05 14:44 PDT
+"invalid__invalid-negative-integer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+109/189 Testing: invalid__invalid-negative-integer__strip
+109/189 Test: invalid__invalid-negative-integer__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/invalid-negative-integer"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__invalid-negative-integer__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__invalid-negative-integer__strip" end time: Jun 05 14:44 PDT
+"invalid__invalid-negative-integer__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+110/189 Testing: invalid__invalid-negative-real
+110/189 Test: invalid__invalid-negative-real
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/invalid-negative-real"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__invalid-negative-real" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__invalid-negative-real" end time: Jun 05 14:44 PDT
+"invalid__invalid-negative-real" time elapsed: 00:00:00
+----------------------------------------------------------
+
+111/189 Testing: invalid__invalid-negative-real__strip
+111/189 Test: invalid__invalid-negative-real__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/invalid-negative-real"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__invalid-negative-real__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__invalid-negative-real__strip" end time: Jun 05 14:44 PDT
+"invalid__invalid-negative-real__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+112/189 Testing: invalid__invalid-second-surrogate
+112/189 Test: invalid__invalid-second-surrogate
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/invalid-second-surrogate"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__invalid-second-surrogate" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__invalid-second-surrogate" end time: Jun 05 14:44 PDT
+"invalid__invalid-second-surrogate" time elapsed: 00:00:00
+----------------------------------------------------------
+
+113/189 Testing: invalid__invalid-second-surrogate__strip
+113/189 Test: invalid__invalid-second-surrogate__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/invalid-second-surrogate"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__invalid-second-surrogate__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__invalid-second-surrogate__strip" end time: Jun 05 14:44 PDT
+"invalid__invalid-second-surrogate__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+114/189 Testing: invalid__lone-open-brace
+114/189 Test: invalid__lone-open-brace
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/lone-open-brace"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__lone-open-brace" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__lone-open-brace" end time: Jun 05 14:44 PDT
+"invalid__lone-open-brace" time elapsed: 00:00:00
+----------------------------------------------------------
+
+115/189 Testing: invalid__lone-open-brace__strip
+115/189 Test: invalid__lone-open-brace__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/lone-open-brace"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__lone-open-brace__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__lone-open-brace__strip" end time: Jun 05 14:44 PDT
+"invalid__lone-open-brace__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+116/189 Testing: invalid__lone-open-bracket
+116/189 Test: invalid__lone-open-bracket
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/lone-open-bracket"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__lone-open-bracket" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__lone-open-bracket" end time: Jun 05 14:44 PDT
+"invalid__lone-open-bracket" time elapsed: 00:00:00
+----------------------------------------------------------
+
+117/189 Testing: invalid__lone-open-bracket__strip
+117/189 Test: invalid__lone-open-bracket__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/lone-open-bracket"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__lone-open-bracket__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__lone-open-bracket__strip" end time: Jun 05 14:44 PDT
+"invalid__lone-open-bracket__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+118/189 Testing: invalid__lone-second-surrogate
+118/189 Test: invalid__lone-second-surrogate
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/lone-second-surrogate"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__lone-second-surrogate" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__lone-second-surrogate" end time: Jun 05 14:44 PDT
+"invalid__lone-second-surrogate" time elapsed: 00:00:00
+----------------------------------------------------------
+
+119/189 Testing: invalid__lone-second-surrogate__strip
+119/189 Test: invalid__lone-second-surrogate__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/lone-second-surrogate"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__lone-second-surrogate__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__lone-second-surrogate__strip" end time: Jun 05 14:44 PDT
+"invalid__lone-second-surrogate__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+120/189 Testing: invalid__minus-sign-without-number
+120/189 Test: invalid__minus-sign-without-number
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/minus-sign-without-number"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__minus-sign-without-number" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__minus-sign-without-number" end time: Jun 05 14:44 PDT
+"invalid__minus-sign-without-number" time elapsed: 00:00:00
+----------------------------------------------------------
+
+121/189 Testing: invalid__minus-sign-without-number__strip
+121/189 Test: invalid__minus-sign-without-number__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/minus-sign-without-number"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__minus-sign-without-number__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__minus-sign-without-number__strip" end time: Jun 05 14:44 PDT
+"invalid__minus-sign-without-number__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+122/189 Testing: invalid__negative-integer-starting-with-zero
+122/189 Test: invalid__negative-integer-starting-with-zero
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/negative-integer-starting-with-zero"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__negative-integer-starting-with-zero" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__negative-integer-starting-with-zero" end time: Jun 05 14:44 PDT
+"invalid__negative-integer-starting-with-zero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+123/189 Testing: invalid__negative-integer-starting-with-zero__strip
+123/189 Test: invalid__negative-integer-starting-with-zero__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/negative-integer-starting-with-zero"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__negative-integer-starting-with-zero__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__negative-integer-starting-with-zero__strip" end time: Jun 05 14:44 PDT
+"invalid__negative-integer-starting-with-zero__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+124/189 Testing: invalid__null
+124/189 Test: invalid__null
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/null"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__null" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__null" end time: Jun 05 14:44 PDT
+"invalid__null" time elapsed: 00:00:00
+----------------------------------------------------------
+
+125/189 Testing: invalid__null__strip
+125/189 Test: invalid__null__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/null"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__null__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__null__strip" end time: Jun 05 14:44 PDT
+"invalid__null__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+126/189 Testing: invalid__null-byte-in-string
+126/189 Test: invalid__null-byte-in-string
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/null-byte-in-string"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__null-byte-in-string" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__null-byte-in-string" end time: Jun 05 14:44 PDT
+"invalid__null-byte-in-string" time elapsed: 00:00:00
+----------------------------------------------------------
+
+127/189 Testing: invalid__null-byte-outside-string
+127/189 Test: invalid__null-byte-outside-string
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/null-byte-outside-string"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__null-byte-outside-string" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__null-byte-outside-string" end time: Jun 05 14:44 PDT
+"invalid__null-byte-outside-string" time elapsed: 00:00:00
+----------------------------------------------------------
+
+128/189 Testing: invalid__object-apostrophes
+128/189 Test: invalid__object-apostrophes
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/object-apostrophes"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__object-apostrophes" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__object-apostrophes" end time: Jun 05 14:44 PDT
+"invalid__object-apostrophes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+129/189 Testing: invalid__object-apostrophes__strip
+129/189 Test: invalid__object-apostrophes__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/object-apostrophes"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__object-apostrophes__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__object-apostrophes__strip" end time: Jun 05 14:44 PDT
+"invalid__object-apostrophes__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+130/189 Testing: invalid__object-garbage-at-end
+130/189 Test: invalid__object-garbage-at-end
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/object-garbage-at-end"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__object-garbage-at-end" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__object-garbage-at-end" end time: Jun 05 14:44 PDT
+"invalid__object-garbage-at-end" time elapsed: 00:00:00
+----------------------------------------------------------
+
+131/189 Testing: invalid__object-garbage-at-end__strip
+131/189 Test: invalid__object-garbage-at-end__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/object-garbage-at-end"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__object-garbage-at-end__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__object-garbage-at-end__strip" end time: Jun 05 14:44 PDT
+"invalid__object-garbage-at-end__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+132/189 Testing: invalid__object-in-unterminated-array
+132/189 Test: invalid__object-in-unterminated-array
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/object-in-unterminated-array"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__object-in-unterminated-array" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__object-in-unterminated-array" end time: Jun 05 14:44 PDT
+"invalid__object-in-unterminated-array" time elapsed: 00:00:00
+----------------------------------------------------------
+
+133/189 Testing: invalid__object-in-unterminated-array__strip
+133/189 Test: invalid__object-in-unterminated-array__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/object-in-unterminated-array"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__object-in-unterminated-array__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__object-in-unterminated-array__strip" end time: Jun 05 14:44 PDT
+"invalid__object-in-unterminated-array__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+134/189 Testing: invalid__object-no-colon
+134/189 Test: invalid__object-no-colon
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/object-no-colon"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__object-no-colon" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__object-no-colon" end time: Jun 05 14:44 PDT
+"invalid__object-no-colon" time elapsed: 00:00:00
+----------------------------------------------------------
+
+135/189 Testing: invalid__object-no-colon__strip
+135/189 Test: invalid__object-no-colon__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/object-no-colon"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__object-no-colon__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__object-no-colon__strip" end time: Jun 05 14:44 PDT
+"invalid__object-no-colon__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+136/189 Testing: invalid__object-no-value
+136/189 Test: invalid__object-no-value
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/object-no-value"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__object-no-value" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__object-no-value" end time: Jun 05 14:44 PDT
+"invalid__object-no-value" time elapsed: 00:00:00
+----------------------------------------------------------
+
+137/189 Testing: invalid__object-no-value__strip
+137/189 Test: invalid__object-no-value__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/object-no-value"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__object-no-value__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__object-no-value__strip" end time: Jun 05 14:44 PDT
+"invalid__object-no-value__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+138/189 Testing: invalid__object-unterminated-value
+138/189 Test: invalid__object-unterminated-value
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/object-unterminated-value"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__object-unterminated-value" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__object-unterminated-value" end time: Jun 05 14:44 PDT
+"invalid__object-unterminated-value" time elapsed: 00:00:00
+----------------------------------------------------------
+
+139/189 Testing: invalid__object-unterminated-value__strip
+139/189 Test: invalid__object-unterminated-value__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/object-unterminated-value"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__object-unterminated-value__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__object-unterminated-value__strip" end time: Jun 05 14:44 PDT
+"invalid__object-unterminated-value__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+140/189 Testing: invalid__real-garbage-after-e
+140/189 Test: invalid__real-garbage-after-e
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/real-garbage-after-e"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__real-garbage-after-e" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__real-garbage-after-e" end time: Jun 05 14:44 PDT
+"invalid__real-garbage-after-e" time elapsed: 00:00:00
+----------------------------------------------------------
+
+141/189 Testing: invalid__real-garbage-after-e__strip
+141/189 Test: invalid__real-garbage-after-e__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/real-garbage-after-e"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__real-garbage-after-e__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__real-garbage-after-e__strip" end time: Jun 05 14:44 PDT
+"invalid__real-garbage-after-e__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+142/189 Testing: invalid__real-negative-overflow
+142/189 Test: invalid__real-negative-overflow
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/real-negative-overflow"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__real-negative-overflow" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__real-negative-overflow" end time: Jun 05 14:44 PDT
+"invalid__real-negative-overflow" time elapsed: 00:00:00
+----------------------------------------------------------
+
+143/189 Testing: invalid__real-negative-overflow__strip
+143/189 Test: invalid__real-negative-overflow__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/real-negative-overflow"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__real-negative-overflow__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__real-negative-overflow__strip" end time: Jun 05 14:44 PDT
+"invalid__real-negative-overflow__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+144/189 Testing: invalid__real-positive-overflow
+144/189 Test: invalid__real-positive-overflow
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/real-positive-overflow"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__real-positive-overflow" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__real-positive-overflow" end time: Jun 05 14:44 PDT
+"invalid__real-positive-overflow" time elapsed: 00:00:00
+----------------------------------------------------------
+
+145/189 Testing: invalid__real-positive-overflow__strip
+145/189 Test: invalid__real-positive-overflow__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/real-positive-overflow"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__real-positive-overflow__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__real-positive-overflow__strip" end time: Jun 05 14:44 PDT
+"invalid__real-positive-overflow__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+146/189 Testing: invalid__real-truncated-at-e
+146/189 Test: invalid__real-truncated-at-e
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/real-truncated-at-e"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__real-truncated-at-e" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__real-truncated-at-e" end time: Jun 05 14:44 PDT
+"invalid__real-truncated-at-e" time elapsed: 00:00:00
+----------------------------------------------------------
+
+147/189 Testing: invalid__real-truncated-at-e__strip
+147/189 Test: invalid__real-truncated-at-e__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/real-truncated-at-e"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__real-truncated-at-e__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__real-truncated-at-e__strip" end time: Jun 05 14:44 PDT
+"invalid__real-truncated-at-e__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+148/189 Testing: invalid__real-truncated-at-point
+148/189 Test: invalid__real-truncated-at-point
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/real-truncated-at-point"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__real-truncated-at-point" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__real-truncated-at-point" end time: Jun 05 14:44 PDT
+"invalid__real-truncated-at-point" time elapsed: 00:00:00
+----------------------------------------------------------
+
+149/189 Testing: invalid__real-truncated-at-point__strip
+149/189 Test: invalid__real-truncated-at-point__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/real-truncated-at-point"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__real-truncated-at-point__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__real-truncated-at-point__strip" end time: Jun 05 14:44 PDT
+"invalid__real-truncated-at-point__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+150/189 Testing: invalid__tab-character-in-string
+150/189 Test: invalid__tab-character-in-string
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/tab-character-in-string"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__tab-character-in-string" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__tab-character-in-string" end time: Jun 05 14:44 PDT
+"invalid__tab-character-in-string" time elapsed: 00:00:00
+----------------------------------------------------------
+
+151/189 Testing: invalid__tab-character-in-string__strip
+151/189 Test: invalid__tab-character-in-string__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/tab-character-in-string"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__tab-character-in-string__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__tab-character-in-string__strip" end time: Jun 05 14:44 PDT
+"invalid__tab-character-in-string__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+152/189 Testing: invalid__too-big-negative-integer
+152/189 Test: invalid__too-big-negative-integer
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/too-big-negative-integer"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__too-big-negative-integer" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__too-big-negative-integer" end time: Jun 05 14:44 PDT
+"invalid__too-big-negative-integer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+153/189 Testing: invalid__too-big-negative-integer__strip
+153/189 Test: invalid__too-big-negative-integer__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/too-big-negative-integer"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__too-big-negative-integer__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__too-big-negative-integer__strip" end time: Jun 05 14:44 PDT
+"invalid__too-big-negative-integer__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+154/189 Testing: invalid__too-big-positive-integer
+154/189 Test: invalid__too-big-positive-integer
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/too-big-positive-integer"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__too-big-positive-integer" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__too-big-positive-integer" end time: Jun 05 14:44 PDT
+"invalid__too-big-positive-integer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+155/189 Testing: invalid__too-big-positive-integer__strip
+155/189 Test: invalid__too-big-positive-integer__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/too-big-positive-integer"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__too-big-positive-integer__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__too-big-positive-integer__strip" end time: Jun 05 14:44 PDT
+"invalid__too-big-positive-integer__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+156/189 Testing: invalid__truncated-unicode-surrogate
+156/189 Test: invalid__truncated-unicode-surrogate
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/truncated-unicode-surrogate"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__truncated-unicode-surrogate" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__truncated-unicode-surrogate" end time: Jun 05 14:44 PDT
+"invalid__truncated-unicode-surrogate" time elapsed: 00:00:00
+----------------------------------------------------------
+
+157/189 Testing: invalid__truncated-unicode-surrogate__strip
+157/189 Test: invalid__truncated-unicode-surrogate__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/truncated-unicode-surrogate"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__truncated-unicode-surrogate__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__truncated-unicode-surrogate__strip" end time: Jun 05 14:44 PDT
+"invalid__truncated-unicode-surrogate__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+158/189 Testing: invalid__unicode-identifier
+158/189 Test: invalid__unicode-identifier
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/unicode-identifier"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__unicode-identifier" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__unicode-identifier" end time: Jun 05 14:44 PDT
+"invalid__unicode-identifier" time elapsed: 00:00:00
+----------------------------------------------------------
+
+159/189 Testing: invalid__unicode-identifier__strip
+159/189 Test: invalid__unicode-identifier__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/unicode-identifier"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__unicode-identifier__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__unicode-identifier__strip" end time: Jun 05 14:44 PDT
+"invalid__unicode-identifier__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+160/189 Testing: invalid__unterminated-array
+160/189 Test: invalid__unterminated-array
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/unterminated-array"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__unterminated-array" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__unterminated-array" end time: Jun 05 14:44 PDT
+"invalid__unterminated-array" time elapsed: 00:00:00
+----------------------------------------------------------
+
+161/189 Testing: invalid__unterminated-array__strip
+161/189 Test: invalid__unterminated-array__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/unterminated-array"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__unterminated-array__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__unterminated-array__strip" end time: Jun 05 14:44 PDT
+"invalid__unterminated-array__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+162/189 Testing: invalid__unterminated-array-and-object
+162/189 Test: invalid__unterminated-array-and-object
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/unterminated-array-and-object"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__unterminated-array-and-object" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__unterminated-array-and-object" end time: Jun 05 14:44 PDT
+"invalid__unterminated-array-and-object" time elapsed: 00:00:00
+----------------------------------------------------------
+
+163/189 Testing: invalid__unterminated-array-and-object__strip
+163/189 Test: invalid__unterminated-array-and-object__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/unterminated-array-and-object"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__unterminated-array-and-object__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__unterminated-array-and-object__strip" end time: Jun 05 14:44 PDT
+"invalid__unterminated-array-and-object__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+164/189 Testing: invalid__unterminated-empty-key
+164/189 Test: invalid__unterminated-empty-key
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/unterminated-empty-key"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__unterminated-empty-key" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__unterminated-empty-key" end time: Jun 05 14:44 PDT
+"invalid__unterminated-empty-key" time elapsed: 00:00:00
+----------------------------------------------------------
+
+165/189 Testing: invalid__unterminated-empty-key__strip
+165/189 Test: invalid__unterminated-empty-key__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/unterminated-empty-key"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__unterminated-empty-key__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__unterminated-empty-key__strip" end time: Jun 05 14:44 PDT
+"invalid__unterminated-empty-key__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+166/189 Testing: invalid__unterminated-key
+166/189 Test: invalid__unterminated-key
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/unterminated-key"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__unterminated-key" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__unterminated-key" end time: Jun 05 14:44 PDT
+"invalid__unterminated-key" time elapsed: 00:00:00
+----------------------------------------------------------
+
+167/189 Testing: invalid__unterminated-key__strip
+167/189 Test: invalid__unterminated-key__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/unterminated-key"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__unterminated-key__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__unterminated-key__strip" end time: Jun 05 14:44 PDT
+"invalid__unterminated-key__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+168/189 Testing: invalid__unterminated-object-and-array
+168/189 Test: invalid__unterminated-object-and-array
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/unterminated-object-and-array"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__unterminated-object-and-array" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__unterminated-object-and-array" end time: Jun 05 14:44 PDT
+"invalid__unterminated-object-and-array" time elapsed: 00:00:00
+----------------------------------------------------------
+
+169/189 Testing: invalid__unterminated-object-and-array__strip
+169/189 Test: invalid__unterminated-object-and-array__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/unterminated-object-and-array"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__unterminated-object-and-array__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__unterminated-object-and-array__strip" end time: Jun 05 14:44 PDT
+"invalid__unterminated-object-and-array__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+170/189 Testing: invalid__unterminated-string
+170/189 Test: invalid__unterminated-string
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/unterminated-string"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__unterminated-string" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__unterminated-string" end time: Jun 05 14:44 PDT
+"invalid__unterminated-string" time elapsed: 00:00:00
+----------------------------------------------------------
+
+171/189 Testing: invalid__unterminated-string__strip
+171/189 Test: invalid__unterminated-string__strip
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "--strip" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid/unterminated-string"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid__unterminated-string__strip" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid__unterminated-string__strip" end time: Jun 05 14:44 PDT
+"invalid__unterminated-string__strip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+172/189 Testing: invalid-unicode__encoded-surrogate-half
+172/189 Test: invalid-unicode__encoded-surrogate-half
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid-unicode/encoded-surrogate-half"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid-unicode__encoded-surrogate-half" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid-unicode__encoded-surrogate-half" end time: Jun 05 14:44 PDT
+"invalid-unicode__encoded-surrogate-half" time elapsed: 00:00:00
+----------------------------------------------------------
+
+173/189 Testing: invalid-unicode__invalid-utf-8-after-backslash
+173/189 Test: invalid-unicode__invalid-utf-8-after-backslash
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid-unicode/invalid-utf-8-after-backslash"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid-unicode__invalid-utf-8-after-backslash" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid-unicode__invalid-utf-8-after-backslash" end time: Jun 05 14:44 PDT
+"invalid-unicode__invalid-utf-8-after-backslash" time elapsed: 00:00:00
+----------------------------------------------------------
+
+174/189 Testing: invalid-unicode__invalid-utf-8-in-array
+174/189 Test: invalid-unicode__invalid-utf-8-in-array
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid-unicode/invalid-utf-8-in-array"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid-unicode__invalid-utf-8-in-array" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid-unicode__invalid-utf-8-in-array" end time: Jun 05 14:44 PDT
+"invalid-unicode__invalid-utf-8-in-array" time elapsed: 00:00:00
+----------------------------------------------------------
+
+175/189 Testing: invalid-unicode__invalid-utf-8-in-bigger-int
+175/189 Test: invalid-unicode__invalid-utf-8-in-bigger-int
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid-unicode/invalid-utf-8-in-bigger-int"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid-unicode__invalid-utf-8-in-bigger-int" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid-unicode__invalid-utf-8-in-bigger-int" end time: Jun 05 14:44 PDT
+"invalid-unicode__invalid-utf-8-in-bigger-int" time elapsed: 00:00:00
+----------------------------------------------------------
+
+176/189 Testing: invalid-unicode__invalid-utf-8-in-escape
+176/189 Test: invalid-unicode__invalid-utf-8-in-escape
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid-unicode/invalid-utf-8-in-escape"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid-unicode__invalid-utf-8-in-escape" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid-unicode__invalid-utf-8-in-escape" end time: Jun 05 14:44 PDT
+"invalid-unicode__invalid-utf-8-in-escape" time elapsed: 00:00:00
+----------------------------------------------------------
+
+177/189 Testing: invalid-unicode__invalid-utf-8-in-exponent
+177/189 Test: invalid-unicode__invalid-utf-8-in-exponent
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid-unicode/invalid-utf-8-in-exponent"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid-unicode__invalid-utf-8-in-exponent" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid-unicode__invalid-utf-8-in-exponent" end time: Jun 05 14:44 PDT
+"invalid-unicode__invalid-utf-8-in-exponent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+178/189 Testing: invalid-unicode__invalid-utf-8-in-identifier
+178/189 Test: invalid-unicode__invalid-utf-8-in-identifier
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid-unicode/invalid-utf-8-in-identifier"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid-unicode__invalid-utf-8-in-identifier" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid-unicode__invalid-utf-8-in-identifier" end time: Jun 05 14:44 PDT
+"invalid-unicode__invalid-utf-8-in-identifier" time elapsed: 00:00:00
+----------------------------------------------------------
+
+179/189 Testing: invalid-unicode__invalid-utf-8-in-int
+179/189 Test: invalid-unicode__invalid-utf-8-in-int
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid-unicode/invalid-utf-8-in-int"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid-unicode__invalid-utf-8-in-int" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid-unicode__invalid-utf-8-in-int" end time: Jun 05 14:44 PDT
+"invalid-unicode__invalid-utf-8-in-int" time elapsed: 00:00:00
+----------------------------------------------------------
+
+180/189 Testing: invalid-unicode__invalid-utf-8-in-real-after-e
+180/189 Test: invalid-unicode__invalid-utf-8-in-real-after-e
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid-unicode/invalid-utf-8-in-real-after-e"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid-unicode__invalid-utf-8-in-real-after-e" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid-unicode__invalid-utf-8-in-real-after-e" end time: Jun 05 14:44 PDT
+"invalid-unicode__invalid-utf-8-in-real-after-e" time elapsed: 00:00:00
+----------------------------------------------------------
+
+181/189 Testing: invalid-unicode__invalid-utf-8-in-string
+181/189 Test: invalid-unicode__invalid-utf-8-in-string
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid-unicode/invalid-utf-8-in-string"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid-unicode__invalid-utf-8-in-string" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid-unicode__invalid-utf-8-in-string" end time: Jun 05 14:44 PDT
+"invalid-unicode__invalid-utf-8-in-string" time elapsed: 00:00:00
+----------------------------------------------------------
+
+182/189 Testing: invalid-unicode__lone-invalid-utf-8
+182/189 Test: invalid-unicode__lone-invalid-utf-8
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid-unicode/lone-invalid-utf-8"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid-unicode__lone-invalid-utf-8" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"invalid-unicode__lone-invalid-utf-8" end time: Jun 05 14:44 PDT
+"invalid-unicode__lone-invalid-utf-8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+183/189 Testing: invalid-unicode__lone-utf-8-continuation-byte
+183/189 Test: invalid-unicode__lone-utf-8-continuation-byte
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid-unicode/lone-utf-8-continuation-byte"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid-unicode__lone-utf-8-continuation-byte" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid-unicode__lone-utf-8-continuation-byte" end time: Jun 05 14:44 PDT
+"invalid-unicode__lone-utf-8-continuation-byte" time elapsed: 00:00:00
+----------------------------------------------------------
+
+184/189 Testing: invalid-unicode__not-in-unicode-range
+184/189 Test: invalid-unicode__not-in-unicode-range
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid-unicode/not-in-unicode-range"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid-unicode__not-in-unicode-range" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid-unicode__not-in-unicode-range" end time: Jun 05 14:44 PDT
+"invalid-unicode__not-in-unicode-range" time elapsed: 00:00:00
+----------------------------------------------------------
+
+185/189 Testing: invalid-unicode__overlong-3-byte-encoding
+185/189 Test: invalid-unicode__overlong-3-byte-encoding
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid-unicode/overlong-3-byte-encoding"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid-unicode__overlong-3-byte-encoding" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid-unicode__overlong-3-byte-encoding" end time: Jun 05 14:44 PDT
+"invalid-unicode__overlong-3-byte-encoding" time elapsed: 00:00:00
+----------------------------------------------------------
+
+186/189 Testing: invalid-unicode__overlong-4-byte-encoding
+186/189 Test: invalid-unicode__overlong-4-byte-encoding
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid-unicode/overlong-4-byte-encoding"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid-unicode__overlong-4-byte-encoding" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid-unicode__overlong-4-byte-encoding" end time: Jun 05 14:44 PDT
+"invalid-unicode__overlong-4-byte-encoding" time elapsed: 00:00:00
+----------------------------------------------------------
+
+187/189 Testing: invalid-unicode__overlong-ascii-encoding
+187/189 Test: invalid-unicode__overlong-ascii-encoding
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid-unicode/overlong-ascii-encoding"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid-unicode__overlong-ascii-encoding" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid-unicode__overlong-ascii-encoding" end time: Jun 05 14:44 PDT
+"invalid-unicode__overlong-ascii-encoding" time elapsed: 00:00:00
+----------------------------------------------------------
+
+188/189 Testing: invalid-unicode__restricted-utf-8
+188/189 Test: invalid-unicode__restricted-utf-8
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid-unicode/restricted-utf-8"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid-unicode__restricted-utf-8" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid-unicode__restricted-utf-8" end time: Jun 05 14:44 PDT
+"invalid-unicode__restricted-utf-8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+189/189 Testing: invalid-unicode__truncated-utf-8
+189/189 Test: invalid-unicode__truncated-utf-8
+Command: "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/bin/json_process" "/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/test/suites/invalid-unicode/truncated-utf-8"
+Directory: /Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build
+"invalid-unicode__truncated-utf-8" start time: Jun 05 14:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invalid-unicode__truncated-utf-8" end time: Jun 05 14:44 PDT
+"invalid-unicode__truncated-utf-8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 05 14:44 PDT

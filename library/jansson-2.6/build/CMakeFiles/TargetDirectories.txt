@@ -1,0 +1,16 @@
+/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/CMakeFiles/check.dir
+/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/CMakeFiles/jansson.dir
+/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/CMakeFiles/json_process.dir
+/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/CMakeFiles/test_array.dir
+/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/CMakeFiles/test_copy.dir
+/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/CMakeFiles/test_dump.dir
+/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/CMakeFiles/test_dump_callback.dir
+/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/CMakeFiles/test_equal.dir
+/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/CMakeFiles/test_load.dir
+/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/CMakeFiles/test_loadb.dir
+/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/CMakeFiles/test_memory_funcs.dir
+/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/CMakeFiles/test_number.dir
+/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/CMakeFiles/test_object.dir
+/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/CMakeFiles/test_pack.dir
+/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/CMakeFiles/test_simple.dir
+/Users/ptseng/Developer/C/CodonCount-C/CodonCount-C/library/jansson-2.6/build/CMakeFiles/test_unpack.dir
