@@ -1,0 +1,3 @@
+libcalgtest_a-hash-pointer.o: hash-pointer.c hash-pointer.h
+
+hash-pointer.h:

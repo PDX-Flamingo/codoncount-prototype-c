@@ -1,0 +1,3 @@
+libcalgtest_a-compare-pointer.o: compare-pointer.c compare-pointer.h
+
+compare-pointer.h:
