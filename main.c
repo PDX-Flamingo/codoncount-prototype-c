@@ -25,8 +25,9 @@ json_t * trieValuetoJsonInteger(TrieValue i)
     return json_integer((long) i);
 }
 
-void save_json(Trie * counts, long int seq_length)
+void save_json(Trie * counts, const long int seq_length)
 {
+    
     json_t * json = json_object();
     json_t * codonCountjson = json_object();
     
@@ -100,6 +101,9 @@ void save_json(Trie * counts, long int seq_length)
     
     printf("%s\n",json_dumps(json, JSON_INDENT(4) | JSON_PRESERVE_ORDER));
     
+    trie_free(counts);
+    json_object_clear(codonCountjson);
+    json_object_clear(json);
     
 }
 
@@ -154,8 +158,6 @@ void count_codons(const char * sequence)
     
     printf("%6.6f seconds counting codons\n", timeElapsed);
     //printf("%d entries\n", trie_num_entries(codoncount));
-    
-    trie_free(codoncount);
 
 }
 
@@ -164,15 +166,18 @@ int main(int argc, const char * argv[]) {
 
     const char * testseq = "TTTTTCTTATTGTCTTCCTCATCGTATTACTAATAGTGTTGCTGATGGCTTCTCCTACTGCCTCCCCCACCGCATCACCAACAGCGTCGCCGACGGATTATCATAATGACTACCACAACGAATAACAAAAAGAGTAGCAGAAGGGTTGTCGTAGTGGCTGCCGCAGCGGATGACGAAGAGGGTGGCGGAGGGTTTTTCTTATTGTCTTCCTCATCGTATTACTAATAGTGTTGCTGATGGCTTCTCCTACTGCCTCCCCCACCGCATCACCAACAGCGTCGCCGACGGATTATCATAATGACTACCACAACGAATAACAAAAAGAGTAGCAGAAGGGTTGTCGTAGTGGCTGCCGCAGCGGATGACGAAGAGGGTGGCGGAGGGTTTTTCTTATTGTCTTCCTCATCGTATTACTAATAGTGTTGCTGATGGCTTCTCCTACTGCCTCCCCCACCGCATCACCAACAGCGTCGCCGACGGATTATCATAATGACTACCACAACGAATAACAAAAAGAGTAGCAGAAGGGTTGTCGTAGTGGCTGCCGCAGCGGATGACGAAGAGGGTGGCGGAGGGTTTTTCTTATTGTCTTCCTCATCGTATTACTAATAGTGTTGCTGATGGCTTCTCCTACTGCCTCCCCCACCGCATCACCAACAGCGTCGCCGACGGATTATCATAATGACTACCACAACGAATAACAAAAAGAGTAGCAGAAGGGTTGTCGTAGTGGCTGCCGCAGCGGATGACGAAGAGGGTGGCGGAGGGTTTTTCTTATTGTCTTCCTCATCGTATTACTAATAGTGTTGCTGATGGCTTCTCCTACTGCCTCCCCCACCGCATCACCAACAGCGTCGCCGACGGATTATCATAATGACTACCACAACGAATAACAAAAAGAGTAGCAGAAGGGTTGTCGTAGTGGCTGCCGCAGCGGATGACGAAGAGGGTGGCGGAGGG";
     
+    const char * shortseq = "AAATTTCCCGGG";
+    
 
     int fd = open("./cow.seq", O_RDONLY);
     long long len = lseek(fd, 0, SEEK_END);
     void * data = mmap(0, len, PROT_READ, MAP_PRIVATE, fd, 0);
+    close(fd);
     
     count_codons(testseq);
+    count_codons(shortseq);
     count_codons((const char*) data);
     
-    close(fd);
     return 0;
 }
 
