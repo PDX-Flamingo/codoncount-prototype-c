@@ -1,3 +1,0 @@
-libcalgtest_a-hash-int.o: hash-int.c hash-int.h
-
-hash-int.h:

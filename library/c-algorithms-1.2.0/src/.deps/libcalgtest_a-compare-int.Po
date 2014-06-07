@@ -1,3 +1,0 @@
-libcalgtest_a-compare-int.o: compare-int.c compare-int.h
-
-compare-int.h:
