@@ -1,6 +1,16 @@
 #codonpdx - Team (F)lamingo
 ###Prototype CodonCount in C
 
+#### Libraries
+
+1. [C-Algorithms 1.2.0] [http://c-algorithms.sourceforge.net]
+2. [Jansson 2.6] [http://www.digip.org/jansson/]
+
+#### Sample Files
+
+1. [cow.seq] [https://www.dropbox.com/s/n67qz6k262ghxuz/cow.seq]
+2. [cow.seq.gz] [https://www.dropbox.com/s/vled9byvcxt7x88/cow.seq.gz]
+
 #### Tested on
 
 1. Mac OS X Mavericks
