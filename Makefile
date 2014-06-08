@@ -1,6 +1,6 @@
 # the compiler: gcc for C program, define as g++ for C++
 CC = g++
-prefix=/usr/local
+prefix=${HOME}
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
