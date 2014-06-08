@@ -8,7 +8,7 @@ includedir=${prefix}/include
 # compiler flags:
 #  -g    adds debugging information to the executable file
 #  -Wall turns on most, but not all, compiler warnings
-CFLAGS  = -g -I${includedir}/libcalg-1.0 -L${libdir} -lcalg -ljansson -O2
+CFLAGS  = -g -I${includedir}/libcalg-1.0 -L${libdir} -lcalg -ljansson -lz -O2
 
 # the build target executable:
 TARGET = main
