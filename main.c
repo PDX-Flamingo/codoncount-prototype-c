@@ -35,18 +35,44 @@ int main(int argc, const char * argv[]) {
         printf("\n");
         printf("%6.6f sec 81 MB cow.seq\n\n", timeElapsed);
 
-        printf("Usage: main (fna.gz filename)\n");
+        printf("-----\nUsage:\n");
+        printf("       Fasta: ./main cow.fna.gz -fasta\n");
+        printf("     GenBank: ./main cow.fna.gz -gb\n");
+        printf("        Test: ./main\n");
         return 0;
     }
 
-    float startTime = (float)clock()/CLOCKS_PER_SEC;
+    if (argc == 2)
+    {
+        printf("-----\nUsage:\n");
+        printf("       Fasta: ./main cow.fna.gz -fasta\n");
+        printf("     GenBank: ./main cow.fna.gz -gb\n");
+        printf("        Test: ./main\n");
+        return 0;
+    }
 
-    parse_fasta(argv[1]);
-    
-    float endTime = (float)clock()/CLOCKS_PER_SEC;
-    float timeElapsed = (endTime - startTime);
-    printf("%6.6f seconds counting codons\n", timeElapsed);
-    
+    if (!strcmp(argv[2], "-fasta")) {
+        float startTime = (float) clock() / CLOCKS_PER_SEC;
+        parse_fasta(argv[1]);
+        float endTime = (float) clock() / CLOCKS_PER_SEC;
+        float timeElapsed = (endTime - startTime);
+        printf("%6.6f seconds counting codons\n", timeElapsed);
+        return 0;
+    }
+
+    if (!strcmp(argv[2], "-gb")) {
+        float startTime = (float) clock() / CLOCKS_PER_SEC;
+        printf("%s\n",argv[1]);
+        float endTime = (float) clock() / CLOCKS_PER_SEC;
+        float timeElapsed = (endTime - startTime);
+        printf("%6.6f seconds counting codons\n", timeElapsed);
+        return 0;
+    }
+    printf("Invalid Parameter\n");
+    printf("-----\nUsage:\n");
+    printf("       Fasta: ./main cow.fna.gz -fasta\n");
+    printf("     GenBank: ./main cow.fna.gz -gb\n");
+    printf("        Test: ./main\n");
     return 0;
 }
 
