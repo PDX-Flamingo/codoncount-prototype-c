@@ -13,7 +13,7 @@
 
 #include "fasta/kseq.h"
 
-#include <libcalg/trie.h>
+#include <libcalg-1.0/libcalg/trie.h>
 
 #include <sys/types.h>
 #include <sys/stat.h>
