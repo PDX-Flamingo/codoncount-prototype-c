@@ -14,6 +14,7 @@ $ EXPORT LD_LIBRARY_PATH=/usr/local/lib
 
 1. [cow.seq](https://www.dropbox.com/s/n67qz6k262ghxuz/cow.seq)
 2. [cow.seq.gz](https://www.dropbox.com/s/vled9byvcxt7x88/cow.seq.gz)
+3. [cow.fna.gz](https://www.dropbox.com/s/byiv2iwc6qxy0te/cow.fna.gz)
 
 #### Tested on
 

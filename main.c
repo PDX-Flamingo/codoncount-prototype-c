@@ -24,17 +24,9 @@
 #include <jansson.h>
 
 //Prototypes
-void count_codons(const char * name, const char * comment, const char * sequence);
+char * count_codons(const char * name, const char * comment, const char * sequence);
 
 //FASTA PARSER
-typedef struct FastaResult
-{
-    char * name;
-    char * comment;
-    char * sequence;
-    char * quality;
-}FastaResult;
-
 KSEQ_INIT(gzFile, gzread)
 
 void parse_fasta(const char * filename)
@@ -45,13 +37,18 @@ void parse_fasta(const char * filename)
 
     fp = gzopen(filename, "r"); // STEP 2: open the file handler
     seq = kseq_init(fp); // STEP 3: initialize seq
+    
+    remove("./output.json");
+    FILE * outputfp = fopen("./output.json", "a");
+    
     while ((l = kseq_read(seq)) >= 0) { // STEP 4: read sequence
         //printf("name: %s\n", seq->name.s);
         //if (seq->comment.l) printf("comment: %s\n", seq->comment.s);
         //printf("seq: %s\n", seq->seq.s);
         //if (seq->qual.l) printf("qual: %s\n", seq->qual.s);
-        count_codons(seq->name.s, seq->comment.s, seq->seq.s);
+        fputs(count_codons(seq->name.s, seq->comment.s, seq->seq.s), outputfp);
     }
+    fclose(outputfp);
     //printf("return value: %d\n", l);
     kseq_destroy(seq); // STEP 5: destroy seq
     gzclose(fp); // STEP 6: close the file handler
@@ -63,7 +60,7 @@ json_t * trieValuetoJsonInteger(TrieValue i)
     return json_integer((long) i);
 }
 
-void save_json(Trie * counts, const char * name, const char * comment, const long int seq_length)
+char * return_json(Trie * counts, const char * name, const char * comment, const long int seq_length)
 {
     
     json_t * json = json_object();
@@ -139,15 +136,16 @@ void save_json(Trie * counts, const char * name, const char * comment, const lon
     json_object_set_new(codonCountjson, "GGA", trieValuetoJsonInteger(trie_lookup(counts, "GGA")) );
     json_object_set_new(codonCountjson, "GGG", trieValuetoJsonInteger(trie_lookup(counts, "GGG")) );
     
-    printf("%s\n",json_dumps(json, JSON_INDENT(4) | JSON_PRESERVE_ORDER));
+    char * data = json_dumps(json, JSON_INDENT(4) | JSON_PRESERVE_ORDER);
     
     trie_free(counts);
     json_object_clear(codonCountjson);
     json_object_clear(json);
     
+    return data;
 }
 
-void count_codons(const char * name, const char * comment, const char * sequence)
+char * count_codons(const char * name, const char * comment, const char * sequence)
 {
     const char * valid_characters = "ACTG";
     char codon[4];
@@ -155,8 +153,6 @@ void count_codons(const char * name, const char * comment, const char * sequence
     Trie * codoncount = trie_new();
     
     long seq_length = strlen(sequence) - 2;
-    
-    float startTime = (float)clock()/CLOCKS_PER_SEC;
     
     for (int i = 0; i < seq_length; i+=3)
     {
@@ -190,15 +186,8 @@ void count_codons(const char * name, const char * comment, const char * sequence
             trie_insert(codoncount, codon, currentcount);
         }
     }
-    
-    float endTime = (float)clock()/CLOCKS_PER_SEC;
-    float timeElapsed = (endTime - startTime);
 
-    save_json(codoncount, name, comment, seq_length+2);
-    
-    printf("%6.6f seconds counting codons\n", timeElapsed);
-    //printf("%d entries\n", trie_num_entries(codoncount));
-
+    return return_json(codoncount, name, comment, seq_length+2);
 }
 
 
@@ -218,16 +207,23 @@ int main(int argc, const char * argv[]) {
         
         count_codons("Test1", "five each", testseq);
         count_codons("Test2", "short sequence", shortseq);
+        float startTime = (float)clock()/CLOCKS_PER_SEC;
         count_codons("TestCow", "Cow Sequence", (const char*) data);
+        float endTime = (float)clock()/CLOCKS_PER_SEC;
+        float timeElapsed = (endTime - startTime);
+        printf("%6.6f seconds counting codons\n\n", timeElapsed);
 
         printf("Usage: main (fna.gz filename)\n");
         return 0;
     }
 
+    float startTime = (float)clock()/CLOCKS_PER_SEC;
+    
     parse_fasta(argv[1]);
     
-
-
+    float endTime = (float)clock()/CLOCKS_PER_SEC;
+    float timeElapsed = (endTime - startTime);
+    printf("%6.6f seconds counting codons\n", timeElapsed);
     
     return 0;
 }
