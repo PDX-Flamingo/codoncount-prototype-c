@@ -15,6 +15,7 @@ void parse_fasta(const char * filename)
     remove("./output.json");
     FILE * outputfp = fopen("./output.json", "a");
 
+    printf("Processing %s\n", filename);
     while ((l = kseq_read(seq)) >= 0) { // STEP 4: read sequence
         fputs(count_codons(seq->name.s, seq->comment.s, seq->seq.s), outputfp);
     }

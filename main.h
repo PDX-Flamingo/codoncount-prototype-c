@@ -11,9 +11,9 @@
 #include <unistd.h>
 #include <sys/mman.h>
 
+#include <jansson.h>
 
 #include "fastaparser.h"
-#include <jansson.h>
 
 
 //Prototypes
