@@ -2,60 +2,13 @@
 //  main.c
 //  CodonCount-C
 //
-//  Created by Philip Tseng on 6/3/14.
-//  Copyright (c) 2014 PhilTseng. All rights reserved.
+//  Created by Phil Tseng on 6/3/14.
+//  Team Flamingo - Apache 2.0
 //
 
-#include <stdio.h>
-#include <string.h>
-#include <time.h>
-#include <zlib.h>
+#include "main.h"
 
-#include "fasta/kseq.h"
-
-#include <libcalg-1.0/libcalg/trie.h>
-
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-#include <unistd.h>
-#include <sys/mman.h>
-
-#include <jansson.h>
-
-//Prototypes
-char * count_codons(const char * name, const char * comment, const char * sequence);
-
-//FASTA PARSER
-KSEQ_INIT(gzFile, gzread)
-
-void parse_fasta(const char * filename)
-{
-    gzFile fp;
-    kseq_t *seq;
-    int l;
-
-    fp = gzopen(filename, "r"); // STEP 2: open the file handler
-    seq = kseq_init(fp); // STEP 3: initialize seq
-    
-    remove("./output.json");
-    FILE * outputfp = fopen("./output.json", "a");
-    
-    while ((l = kseq_read(seq)) >= 0) { // STEP 4: read sequence
-        //printf("name: %s\n", seq->name.s);
-        //if (seq->comment.l) printf("comment: %s\n", seq->comment.s);
-        //printf("seq: %s\n", seq->seq.s);
-        //if (seq->qual.l) printf("qual: %s\n", seq->qual.s);
-        fputs(count_codons(seq->name.s, seq->comment.s, seq->seq.s), outputfp);
-    }
-    fclose(outputfp);
-    //printf("return value: %d\n", l);
-    kseq_destroy(seq); // STEP 5: destroy seq
-    gzclose(fp); // STEP 6: close the file handler
-}
-
-//END FASTA PARSER
-json_t * trieValuetoJsonInteger(TrieValue i)
+static json_t * trieValuetoJsonInteger(TrieValue i)
 {
     return json_integer((long) i);
 }
@@ -138,7 +91,7 @@ char * return_json(Trie * counts, const char * name, const char * comment, const
     
     char * data = json_dumps(json, JSON_INDENT(4) | JSON_PRESERVE_ORDER);
     
-    trie_free(counts);
+    trie_free(counts);                  // You destroy it
     json_object_clear(codonCountjson);
     json_object_clear(json);
     
@@ -150,18 +103,18 @@ char * count_codons(const char * name, const char * comment, const char * sequen
     const char * valid_characters = "ACTG";
     char codon[4];
     
-    Trie * codoncount = trie_new();
+    Trie * codoncount = trie_new();     // You create it, you destroy it (in return_json)
     
     long seq_length = strlen(sequence) - 2;
-    
+    char *c = codon;
+
     for (int i = 0; i < seq_length; i+=3)
     {
+        int invalid = 0;
+
         strncpy(codon, sequence+i, 3);
         codon[3] = '\0';
-        
-        int invalid = 0;
-        char *c = codon;
-        
+
         while (*c)
         {
             if (!strchr(valid_characters, *c))
@@ -195,8 +148,8 @@ int main(int argc, const char * argv[]) {
     
     if (argc == 1)
     {
-        printf("Running Tests\n");
-        const char * testseq = "TTTTTCTTATTGTCTTCCTCATCGTATTACTAATAGTGTTGCTGATGGCTTCTCCTACTGCCTCCCCCACCGCATCACCAACAGCGTCGCCGACGGATTATCATAATGACTACCACAACGAATAACAAAAAGAGTAGCAGAAGGGTTGTCGTAGTGGCTGCCGCAGCGGATGACGAAGAGGGTGGCGGAGGGTTTTTCTTATTGTCTTCCTCATCGTATTACTAATAGTGTTGCTGATGGCTTCTCCTACTGCCTCCCCCACCGCATCACCAACAGCGTCGCCGACGGATTATCATAATGACTACCACAACGAATAACAAAAAGAGTAGCAGAAGGGTTGTCGTAGTGGCTGCCGCAGCGGATGACGAAGAGGGTGGCGGAGGGTTTTTCTTATTGTCTTCCTCATCGTATTACTAATAGTGTTGCTGATGGCTTCTCCTACTGCCTCCCCCACCGCATCACCAACAGCGTCGCCGACGGATTATCATAATGACTACCACAACGAATAACAAAAAGAGTAGCAGAAGGGTTGTCGTAGTGGCTGCCGCAGCGGATGACGAAGAGGGTGGCGGAGGGTTTTTCTTATTGTCTTCCTCATCGTATTACTAATAGTGTTGCTGATGGCTTCTCCTACTGCCTCCCCCACCGCATCACCAACAGCGTCGCCGACGGATTATCATAATGACTACCACAACGAATAACAAAAAGAGTAGCAGAAGGGTTGTCGTAGTGGCTGCCGCAGCGGATGACGAAGAGGGTGGCGGAGGGTTTTTCTTATTGTCTTCCTCATCGTATTACTAATAGTGTTGCTGATGGCTTCTCCTACTGCCTCCCCCACCGCATCACCAACAGCGTCGCCGACGGATTATCATAATGACTACCACAACGAATAACAAAAAGAGTAGCAGAAGGGTTGTCGTAGTGGCTGCCGCAGCGGATGACGAAGAGGGTGGCGGAGGG";
+        printf("\n*** Testing Counter ***\n");
+        const char * testseq = "NTNTNTTTTTTCTTATTGTCTTCCTCATCGTATTACTAATAGTGTTGCTGATGGCTTCTCCTACTGCCTCCCCCACCGCATCACCAACAGCGTCGCCGACGGATTATCATAATGACTACCACAACGAATAACAAAAAGAGTAGCAGAAGGGTTGTCGTAGTGGCTGCCGCAGCGGATGACGAAGAGGGTGGCGGAGGGTTTTTCTTATTGTCTTCCTCATCGTATTACTAATAGTGTTGCTGATGGCTTCTCCTACTGCCTCCCCCACCGCATCACCAACAGCGTCGCCGACGGATTATCATAATGACTACCACAACGAATAACAAAAAGAGTAGCAGAAGGGTTGTCGTAGTGGCTGCCGCAGCGGATGACGAAGAGGGTGGCGGAGGGTTTTTCTTATTGTCTTCCTCATCGTATTACTAATAGTGTTGCTGATGGCTTCTCCTACTGCCTCCCCCACCGCATCACCAACAGCGTCGCCGACGGATTATCATAATGACTACCACAACGAATAACAAAAAGAGTAGCAGAAGGGTTGTCGTAGTGGCTGCCGCAGCGGATGACGAAGAGGGTGGCGGAGGGTTTTTCTTATTGTCTTCCTCATCGTATTACTAATAGTGTTGCTGATGGCTTCTCCTACTGCCTCCCCCACCGCATCACCAACAGCGTCGCCGACGGATTATCATAATGACTACCACAACGAATAACAAAAAGAGTAGCAGAAGGGTTGTCGTAGTGGCTGCCGCAGCGGATGACGAAGAGGGTGGCGGAGGGTTTTTCTTATTGTCTTCCTCATCGTATTACTAATAGTGTTGCTGATGGCTTCTCCTACTGCCTCCCCCACCGCATCACCAACAGCGTCGCCGACGGATTATCATAATGACTACCACAACGAATAACAAAAAGAGTAGCAGAAGGGTTGTCGTAGTGGCTGCCGCAGCGGATGACGAAGAGGGTGGCGGAGGG";
         
         const char * shortseq = "AAATTTCCCGGG";
         
@@ -204,21 +157,26 @@ int main(int argc, const char * argv[]) {
         long long len = lseek(fd, 0, SEEK_END);
         void * data = mmap(0, len, PROT_READ, MAP_PRIVATE, fd, 0);
         close(fd);
-        
-        count_codons("Test1", "five each", testseq);
+
+        printf("\n");
+        printf("%s\n", count_codons("Test1", "five each", testseq));
+        printf(".");
         count_codons("Test2", "short sequence", shortseq);
+        printf(".");
         float startTime = (float)clock()/CLOCKS_PER_SEC;
         count_codons("TestCow", "Cow Sequence", (const char*) data);
         float endTime = (float)clock()/CLOCKS_PER_SEC;
         float timeElapsed = (endTime - startTime);
-        printf("%6.6f seconds counting codons\n\n", timeElapsed);
+        printf(".");
+        printf("\n");
+        printf("%6.6f sec 81 MB cow.seq\n\n", timeElapsed);
 
         printf("Usage: main (fna.gz filename)\n");
         return 0;
     }
 
     float startTime = (float)clock()/CLOCKS_PER_SEC;
-    
+
     parse_fasta(argv[1]);
     
     float endTime = (float)clock()/CLOCKS_PER_SEC;
