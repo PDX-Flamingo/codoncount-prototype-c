@@ -100,6 +100,8 @@ static json_t * trieValuetoJsonInteger(TrieValue i)
     return json_integer((long) i);
 }
 
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wwrite-strings"
 char * return_json(Trie * counts, const char * name, const char * comment, const long int seq_length)
 {
     json_t * json = json_object();
@@ -110,8 +112,6 @@ char * return_json(Trie * counts, const char * name, const char * comment, const
     json_object_set_new(json, "Sequence Length", json_integer(seq_length));
     json_object_set_new(json, "Codon Counts", codonCountjson);
 
-    #pragma GCC diagnostic push
-    #pragma GCC diagnostic ignored "-Wwrite-strings"
     json_object_set_new(codonCountjson, "TTT", trieValuetoJsonInteger(trie_lookup(counts, "TTT")) );
     json_object_set_new(codonCountjson, "TTC", trieValuetoJsonInteger(trie_lookup(counts, "TTC")) );
     json_object_set_new(codonCountjson, "TTA", trieValuetoJsonInteger(trie_lookup(counts, "TTA")) );
@@ -176,7 +176,6 @@ char * return_json(Trie * counts, const char * name, const char * comment, const
     json_object_set_new(codonCountjson, "GGC", trieValuetoJsonInteger(trie_lookup(counts, "GGC")) );
     json_object_set_new(codonCountjson, "GGA", trieValuetoJsonInteger(trie_lookup(counts, "GGA")) );
     json_object_set_new(codonCountjson, "GGG", trieValuetoJsonInteger(trie_lookup(counts, "GGG")) );
-    #pragma GCC diagnostic pop
 
     char * data = json_dumps(json, JSON_INDENT(4) | JSON_PRESERVE_ORDER);
 
@@ -186,4 +185,5 @@ char * return_json(Trie * counts, const char * name, const char * comment, const
 
     return data;
 }
+#pragma GCC diagnostic pop
 
