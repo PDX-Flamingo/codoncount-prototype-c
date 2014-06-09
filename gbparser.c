@@ -34,19 +34,17 @@ static char *getTaxonQualValue(char *sQualifier, gb_feature *ptFeature) {
     return null;
 }
 
-int parse_genbank(char * filename)
+int parse_genbank()
 {
     char *sSequence = NULL;
 
     gb_data **pptSeqData, *ptSeqData;
     gb_feature *ptFeature;
 
-    gb_string gb_f = filename;
+    pptSeqData = parseGBFF(NULL); /* parse a GBF file which contains more than one GBF sequence data */
 
-    pptSeqData = parseGBFF(gb_f); /* parse a GBF file which contains more than one GBF sequence data */
-
-    remove("./output.json");
-    FILE * outputfp = fopen("./output.json", "a");
+    //remove("./output.json");
+    //FILE * outputfp = fopen("./output.json", "a");
 
     for (int i = 0; (ptSeqData = *(pptSeqData + i)) != NULL; i++) { /* ptSeqData points a parsed data of a GBF sequence data */
 
@@ -62,12 +60,13 @@ int parse_genbank(char * filename)
                 //printf("%s\n", sSequence);
                 //printf("---\n");
 
-            fputs(count_codons(ptSeqData->sSource, ptSeqData->sDef, ptSeqData->sVersion, getTaxonQualValue("db_xref", ptSeqData->ptFeatures), sSequence), outputfp);
+            //fputs(count_codons(ptSeqData->sSource, ptSeqData->sDef, ptSeqData->sVersion, getTaxonQualValue("db_xref", ptSeqData->ptFeatures), sSequence), outputfp);
+            printf(count_codons(ptSeqData->sSource, ptSeqData->sDef, ptSeqData->sVersion, getTaxonQualValue("db_xref", ptSeqData->ptFeatures), sSequence));
         }
 
     }
 
-    fclose(outputfp);
+    //fclose(outputfp);
     freeGBData(pptSeqData); /* release memory space */
 
     return 0;

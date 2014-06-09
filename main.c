@@ -12,7 +12,7 @@ int main(int argc, char * argv[]) {
     
     if (argc == 1)
     {
-        printf("\n*** Testing Counter ***\n");
+        fprintf(stderr, "\n*** Testing Counter ***\n");
         const char * testseq = "NTNTNTTTTTTCTTATTGTCTTCCTCATCGTATTACTAATAGTGTTGCTGATGGCTTCTCCTACTGCCTCCCCCACCGCATCACCAACAGCGTCGCCGACGGATTATCATAATGACTACCACAACGAATAACAAAAAGAGTAGCAGAAGGGTTGTCGTAGTGGCTGCCGCAGCGGATGACGAAGAGGGTGGCGGAGGGTTTTTCTTATTGTCTTCCTCATCGTATTACTAATAGTGTTGCTGATGGCTTCTCCTACTGCCTCCCCCACCGCATCACCAACAGCGTCGCCGACGGATTATCATAATGACTACCACAACGAATAACAAAAAGAGTAGCAGAAGGGTTGTCGTAGTGGCTGCCGCAGCGGATGACGAAGAGGGTGGCGGAGGGTTTTTCTTATTGTCTTCCTCATCGTATTACTAATAGTGTTGCTGATGGCTTCTCCTACTGCCTCCCCCACCGCATCACCAACAGCGTCGCCGACGGATTATCATAATGACTACCACAACGAATAACAAAAAGAGTAGCAGAAGGGTTGTCGTAGTGGCTGCCGCAGCGGATGACGAAGAGGGTGGCGGAGGGTTTTTCTTATTGTCTTCCTCATCGTATTACTAATAGTGTTGCTGATGGCTTCTCCTACTGCCTCCCCCACCGCATCACCAACAGCGTCGCCGACGGATTATCATAATGACTACCACAACGAATAACAAAAAGAGTAGCAGAAGGGTTGTCGTAGTGGCTGCCGCAGCGGATGACGAAGAGGGTGGCGGAGGGTTTTTCTTATTGTCTTCCTCATCGTATTACTAATAGTGTTGCTGATGGCTTCTCCTACTGCCTCCCCCACCGCATCACCAACAGCGTCGCCGACGGATTATCATAATGACTACCACAACGAATAACAAAAAGAGTAGCAGAAGGGTTGTCGTAGTGGCTGCCGCAGCGGATGACGAAGAGGGTGGCGGAGGG";
         
         const char * shortseq = "AAATTTCCCGGG";
@@ -22,32 +22,43 @@ int main(int argc, char * argv[]) {
         void * data = mmap(0, len, PROT_READ, MAP_PRIVATE, fd, 0);
         close(fd);
 
-        printf("\n");
-        printf("%s\n", count_codons("Test1", "five each", "1", "", testseq));
-        printf(".");
+        fprintf(stderr, "\n");
+        fprintf(stderr, "%s\n", count_codons("Test1", "five each", "1", "", testseq));
+        fprintf(stderr, ".");
         count_codons("Test2", "short sequence", "2", "", shortseq);
-        printf(".");
+        fprintf(stderr, ".");
         float startTime = (float)clock()/CLOCKS_PER_SEC;
         count_codons("TestCow", "Cow Sequence", "3", "", (const char*) data);
         float endTime = (float)clock()/CLOCKS_PER_SEC;
         float timeElapsed = (endTime - startTime);
-        printf(".");
-        printf("\n");
-        printf("%6.6f sec 81 MB cow.seq\n\n", timeElapsed);
+        fprintf(stderr, ".");
+        fprintf(stderr, "\n");
+        fprintf(stderr, "%6.6f sec 81 MB cow.seq\n\n", timeElapsed);
 
-        printf("-----\nUsage:\n");
-        printf("       Fasta: ./main cow.fna.gz -fasta\n");
-        printf("     GenBank: ./main cow.fna.gz -gb\n");
-        printf("        Test: ./main\n");
+        fprintf(stderr, "-----\nUsage:\n");
+        fprintf(stderr, "       Fasta: ./run.sh cow.fna.gz -fasta\n");
+        fprintf(stderr, "     GenBank: cat cow.gbff | ./run.sh -gb\n");
+        fprintf(stderr, "  GenBank.gz: gzip -cd cow.gbff.gz | ./run.sh -gb\n");
+        fprintf(stderr, "        Test: ./run.sh\n");
+        return 0;
+    }
+
+    if (!strcmp(argv[1], "-gb")) {
+        float startTime = (float) clock() / CLOCKS_PER_SEC;
+        parse_genbank();
+        float endTime = (float) clock() / CLOCKS_PER_SEC;
+        float timeElapsed = (endTime - startTime);
+        fprintf(stderr, "%6.6f seconds counting codons\n", timeElapsed);
         return 0;
     }
 
     if (argc == 2)
     {
-        printf("-----\nUsage:\n");
-        printf("       Fasta: ./main cow.fna.gz -fasta\n");
-        printf("     GenBank: ./main cow.fna.gz -gb\n");
-        printf("        Test: ./main\n");
+        fprintf(stderr, "-----\nUsage:\n");
+        fprintf(stderr, "       Fasta: ./run.sh cow.fna.gz -fasta\n");
+        fprintf(stderr, "     GenBank: cat cow.gbff | ./run.sh -gb\n");
+        fprintf(stderr, "  GenBank.gz: gzip -cd cow.gbff.gz | ./run.sh -gb\n");
+        fprintf(stderr, "        Test: ./run.sh\n");
         return 0;
     }
 
@@ -56,23 +67,16 @@ int main(int argc, char * argv[]) {
         parse_fasta(argv[1]);
         float endTime = (float) clock() / CLOCKS_PER_SEC;
         float timeElapsed = (endTime - startTime);
-        printf("%6.6f seconds counting codons\n", timeElapsed);
+        fprintf(stderr, "%6.6f seconds counting codons\n", timeElapsed);
         return 0;
     }
 
-    if (!strcmp(argv[2], "-gb")) {
-        float startTime = (float) clock() / CLOCKS_PER_SEC;
-        parse_genbank(argv[1]);
-        float endTime = (float) clock() / CLOCKS_PER_SEC;
-        float timeElapsed = (endTime - startTime);
-        printf("%6.6f seconds counting codons\n", timeElapsed);
-        return 0;
-    }
-    printf("Invalid Parameter\n");
-    printf("-----\nUsage:\n");
-    printf("       Fasta: ./main cow.fna.gz -fasta\n");
-    printf("     GenBank: ./main cow.fna.gz -gb\n");
-    printf("        Test: ./main\n");
+    fprintf(stderr, "Invalid Parameter\n");
+    fprintf(stderr, "-----\nUsage:\n");
+    fprintf(stderr, "       Fasta: ./run.sh cow.fna.gz -fasta\n");
+    fprintf(stderr, "     GenBank: cat cow.gbff | ./run.sh -gb\n");
+    fprintf(stderr, "  GenBank.gz: gzip -cd cow.gbff.gz | ./run.sh -gb\n");
+    fprintf(stderr, "        Test: ./run.sh\n");
     return 0;
 }
 

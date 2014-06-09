@@ -4,4 +4,4 @@
 #include <string.h>
 #include <gbfp.h>
 
-int parse_genbank(char * filename);
+int parse_genbank();

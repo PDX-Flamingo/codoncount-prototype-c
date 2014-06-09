@@ -11,14 +11,16 @@ void parse_fasta(const char * filename)
     fp = gzopen(filename, "r"); // STEP 2: open the file handler
     seq = kseq_init(fp); // STEP 3: initialize seq
 
-    remove("./output.json");
-    FILE * outputfp = fopen("./output.json", "a");
+    //remove("./output.json");
+    //FILE * outputfp = fopen("./output.json", "a");
 
-    printf("Processing %s\n", filename);
+    fprintf(stderr, "Processing %s\n", filename);
     while ((l = kseq_read(seq)) >= 0) { // STEP 4: read sequence
-        fputs(count_codons(seq->name.s, seq->comment.s, "", "", seq->seq.s), outputfp);
+        //fputs(count_codons(seq->name.s, seq->comment.s, "", "", seq->seq.s), outputfp);
+        printf(count_codons(seq->name.s, seq->comment.s, "", "", seq->seq.s));
     }
-    fclose(outputfp);
+
+    //fclose(outputfp);
     kseq_destroy(seq); // STEP 5: destroy seq
     gzclose(fp); // STEP 6: close the file handler
 }
