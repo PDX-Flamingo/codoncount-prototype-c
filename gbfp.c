@@ -355,6 +355,22 @@ static int convertPos2Num(gb_string sPositions, unsigned long *lStart, unsigned 
 
 }
 
+char *strip_chars(const char *string, const char *chars)
+{
+  char * newstr = malloc(strlen(string) + 1);
+  int counter = 0;
+ 
+  for ( ; *string; string++) {
+    if (!strchr(chars, *string)) {
+      newstr[ counter ] = *string;
+      ++ counter;
+    }
+  }
+ 
+  newstr[counter] = 0;
+  return newstr;
+}
+
 /* Parsing a gb_string that contains gb_location information */
 static void parseLocation(gb_string sLocation, gb_feature *pFeature) {
     gb_string sTemp;
@@ -382,12 +398,16 @@ static void parseLocation(gb_string sLocation, gb_feature *pFeature) {
     pFeature->ptLocation = malloc(iLocationNum * sizeof(*(pFeature->ptLocation)));
 
     iLocationNum = 0;
+
+    sString = strip_chars(sString, "<>");
     sLocation = strtok_r(sString, ",", &sTemp);
+
     if (convertPos2Num(sLocation,
         &(((pFeature->ptLocation)+iLocationNum)->lStart),
         &(((pFeature->ptLocation)+iLocationNum)->lEnd)) == 1) iLocationNum++;
 
     while((sLocation = strtok_r(NULL, ",", &sTemp))) {
+
         if (convertPos2Num(sLocation,
             &(((pFeature->ptLocation)+iLocationNum)->lStart),
             &(((pFeature->ptLocation)+iLocationNum)->lEnd)) == 1) iLocationNum++;
