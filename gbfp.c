@@ -8,7 +8,6 @@
 #include <ctype.h>
 #include <limits.h>
 #include <sys/types.h>
-#include <zlib.h>
  
 #include <gbfp.h>
 
@@ -659,25 +658,6 @@ static gb_data *_parseGBFF(FILE *FSeqFile) {
     return ptGBData;
 }
 
-FILE *myfopen(const char *path, const char *mode)
-{
-
-  gzFile *zfp;
-
-  /* try gzopen */
-  zfp = gzopen(path,mode);
-  if (zfp == NULL)
-    return fopen(path,mode);
-
-  /* open file pointer */
-  return funopen(zfp,
-                 (int(*)(void*,char*,int))gzread,
-                 (int(*)(void*,const char*,int))gzwrite,
-                 (fpos_t(*)(void*,fpos_t,int))gzseek,
-                 (int(*)(void*))gzclose);
-
-}
-
 /* parse sequence datas in a GBF file */
 gb_data **parseGBFF(gb_string spFileName) {
     int iGBFSeqPos = 0;
@@ -692,7 +672,7 @@ gb_data **parseGBFF(gb_string spFileName) {
             /* perror(spFileName); */
             return NULL;
         } else {
-            FSeqFile = myfopen(spFileName, "r");
+            FSeqFile = fopen(spFileName, "r");
         }
     }
    
