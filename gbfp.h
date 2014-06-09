@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 #define LINELEN             65536
 #define MEGA                1048576
 #define INITGBFSEQNUM       4
@@ -91,4 +89,3 @@ typedef struct tGBFFData {
 gb_data **parseGBFF(gb_string spFileName);
 void freeGBData(gb_data **pptGBFFData);
 gb_string getSequence(gb_string sSequence, gb_feature *ptFeature);
-FILE *myfopen(const char *path, const char *mode);
