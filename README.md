@@ -17,9 +17,9 @@ $ EXPORT LD_LIBRARY_PATH=/usr/local/lib
 2. [cow.seq.gz](https://www.dropbox.com/s/vled9byvcxt7x88/cow.seq.gz)
 3. [cow.fna.gz](https://www.dropbox.com/s/byiv2iwc6qxy0te/cow.fna.gz)
 
-#### Tested on
+#### Portability
 
-1. Mac OS X Mavericks
+Do not compile on GCC >4.7.x
+
+1. Mac OS X Mavericks (brew install apple-gcc42)
 2. CentOS 6.5
-
-

@@ -1,5 +1,11 @@
-# the compiler: gcc for C program, define as g++ for C++
+UNAME := $(shell uname)
+
 CC = gcc
+
+ifeq ($(UNAME), Darwin)
+CC = gcc-4.2
+endif
+
 prefix=${HOME}
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
