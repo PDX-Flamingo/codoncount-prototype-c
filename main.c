@@ -8,7 +8,7 @@
 
 #include "main.h"
 
-int main(int argc, const char * argv[]) {
+int main(int argc, char * argv[]) {
     
     if (argc == 1)
     {
@@ -23,12 +23,12 @@ int main(int argc, const char * argv[]) {
         close(fd);
 
         printf("\n");
-        printf("%s\n", count_codons("Test1", "five each", testseq));
+        printf("%s\n", count_codons("Test1", "five each", "1", "", testseq));
         printf(".");
-        count_codons("Test2", "short sequence", shortseq);
+        count_codons("Test2", "short sequence", "2", "", shortseq);
         printf(".");
         float startTime = (float)clock()/CLOCKS_PER_SEC;
-        count_codons("TestCow", "Cow Sequence", (const char*) data);
+        count_codons("TestCow", "Cow Sequence", "3", "", (const char*) data);
         float endTime = (float)clock()/CLOCKS_PER_SEC;
         float timeElapsed = (endTime - startTime);
         printf(".");
@@ -62,7 +62,7 @@ int main(int argc, const char * argv[]) {
 
     if (!strcmp(argv[2], "-gb")) {
         float startTime = (float) clock() / CLOCKS_PER_SEC;
-        printf("%s\n",argv[1]);
+        parse_genbank(argv[1]);
         float endTime = (float) clock() / CLOCKS_PER_SEC;
         float timeElapsed = (endTime - startTime);
         printf("%6.6f seconds counting codons\n", timeElapsed);
@@ -76,7 +76,7 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 
-char * count_codons(const char * name, const char * comment, const char * sequence)
+char * count_codons(const char * source, const char * definition, const char * version, const char * taxon, const char * sequence)
 {
     const char * valid_characters = "ACTG";
     char codon[4];
@@ -117,7 +117,7 @@ char * count_codons(const char * name, const char * comment, const char * sequen
         }
     }
 
-    return return_json(codoncount, name, comment, seq_length+2);
+    return return_json(codoncount, source, definition, version, taxon, seq_length+2);
 }
 
 
@@ -128,13 +128,15 @@ static json_t * trieValuetoJsonInteger(TrieValue i)
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wwrite-strings"
-char * return_json(Trie * counts, const char * name, const char * comment, const long int seq_length)
+char * return_json(Trie * counts, const char * source, const char *definition, const char * version, const char * taxon, const long int seq_length)
 {
     json_t * json = json_object();
     json_t * codonCountjson = json_object();
 
-    json_object_set_new(json, "Name", json_string(name));
-    json_object_set_new(json, "Comment", json_string(comment));
+    json_object_set_new(json, "Source Organism", json_string(source));
+    json_object_set_new(json, "Definition", json_string(definition));
+    json_object_set_new(json, "Version", json_string(version));
+    json_object_set_new(json, "Taxon", json_string(taxon));
     json_object_set_new(json, "Sequence Length", json_integer(seq_length));
     json_object_set_new(json, "Codon Counts", codonCountjson);
 

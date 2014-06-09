@@ -1,5 +1,4 @@
 #include "main.h"
-#include "fastaparser.h"
 
 KSEQ_INIT(gzFile, gzread)
 
@@ -17,7 +16,7 @@ void parse_fasta(const char * filename)
 
     printf("Processing %s\n", filename);
     while ((l = kseq_read(seq)) >= 0) { // STEP 4: read sequence
-        fputs(count_codons(seq->name.s, seq->comment.s, seq->seq.s), outputfp);
+        fputs(count_codons(seq->name.s, seq->comment.s, "", "", seq->seq.s), outputfp);
     }
     fclose(outputfp);
     kseq_destroy(seq); // STEP 5: destroy seq
