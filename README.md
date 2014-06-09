@@ -9,6 +9,7 @@ $ EXPORT LD_LIBRARY_PATH=/usr/local/lib
 
 1. [C-Algorithms 1.2.0](http://c-algorithms.sourceforge.net)
 2. [Jansson 2.6](http://www.digip.org/jansson/)
+3. [Custom GBParsy 0.6.1](https://www.dropbox.com/s/m70iebm86svammx/gbfp-0.6.1.zip)
 
 #### Sample Files
 
