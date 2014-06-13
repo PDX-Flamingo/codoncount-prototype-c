@@ -3,8 +3,6 @@
 #include <time.h>
 #include <zlib.h>
 
-#include <libcalg-1.0/libcalg/trie.h>
-
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -13,6 +11,7 @@
 
 #include <jansson.h>
 
+#include "trie_codon.h"
 #include "fastaparser.h"
 #include "gbparser.h"
 
