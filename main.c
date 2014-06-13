@@ -87,6 +87,72 @@ char * count_codons(const char * source, const char * definition, const char * v
 
     Trie * codoncount = trie_new();     // You create it, you destroy it (in return_json)
 
+    //Prepare Trie, excuse the verboseness
+    trie_insert(codoncount, "TTT", (TrieValue) 0);
+    trie_insert(codoncount, "TTC", (TrieValue) 0);
+    trie_insert(codoncount, "TTA", (TrieValue) 0);
+    trie_insert(codoncount, "TTG", (TrieValue) 0);
+    trie_insert(codoncount, "TCT", (TrieValue) 0);
+    trie_insert(codoncount, "TCC", (TrieValue) 0);
+    trie_insert(codoncount, "TCA", (TrieValue) 0);
+    trie_insert(codoncount, "TCG", (TrieValue) 0);
+    trie_insert(codoncount, "TAT", (TrieValue) 0);
+    trie_insert(codoncount, "TAC", (TrieValue) 0);
+    trie_insert(codoncount, "TAA", (TrieValue) 0);
+    trie_insert(codoncount, "TAG", (TrieValue) 0);
+    trie_insert(codoncount, "TGT", (TrieValue) 0);
+    trie_insert(codoncount, "TGC", (TrieValue) 0);
+    trie_insert(codoncount, "TGA", (TrieValue) 0);
+    trie_insert(codoncount, "TGG", (TrieValue) 0);
+    trie_insert(codoncount, "CTT", (TrieValue) 0);
+    trie_insert(codoncount, "CTC", (TrieValue) 0);
+    trie_insert(codoncount, "CTA", (TrieValue) 0);
+    trie_insert(codoncount, "CTG", (TrieValue) 0);
+    trie_insert(codoncount, "CCT", (TrieValue) 0);
+    trie_insert(codoncount, "CCC", (TrieValue) 0);
+    trie_insert(codoncount, "CCA", (TrieValue) 0);
+    trie_insert(codoncount, "CCG", (TrieValue) 0);
+    trie_insert(codoncount, "CAT", (TrieValue) 0);
+    trie_insert(codoncount, "CAC", (TrieValue) 0);
+    trie_insert(codoncount, "CAA", (TrieValue) 0);
+    trie_insert(codoncount, "CAG", (TrieValue) 0);
+    trie_insert(codoncount, "CGT", (TrieValue) 0);
+    trie_insert(codoncount, "CGC", (TrieValue) 0);
+    trie_insert(codoncount, "CGA", (TrieValue) 0);
+    trie_insert(codoncount, "CGG", (TrieValue) 0);
+    trie_insert(codoncount, "ATT", (TrieValue) 0);
+    trie_insert(codoncount, "ATC", (TrieValue) 0);
+    trie_insert(codoncount, "ATA", (TrieValue) 0);
+    trie_insert(codoncount, "ATG", (TrieValue) 0);
+    trie_insert(codoncount, "ACT", (TrieValue) 0);
+    trie_insert(codoncount, "ACC", (TrieValue) 0);
+    trie_insert(codoncount, "ACA", (TrieValue) 0);
+    trie_insert(codoncount, "ACG", (TrieValue) 0);
+    trie_insert(codoncount, "AAT", (TrieValue) 0);
+    trie_insert(codoncount, "AAC", (TrieValue) 0);
+    trie_insert(codoncount, "AAA", (TrieValue) 0);
+    trie_insert(codoncount, "AAG", (TrieValue) 0);
+    trie_insert(codoncount, "AGT", (TrieValue) 0);
+    trie_insert(codoncount, "AGC", (TrieValue) 0);
+    trie_insert(codoncount, "AGA", (TrieValue) 0);
+    trie_insert(codoncount, "AGG", (TrieValue) 0);
+    trie_insert(codoncount, "GTT", (TrieValue) 0);
+    trie_insert(codoncount, "GTC", (TrieValue) 0);
+    trie_insert(codoncount, "GTA", (TrieValue) 0);
+    trie_insert(codoncount, "GTG", (TrieValue) 0);
+    trie_insert(codoncount, "GCT", (TrieValue) 0);
+    trie_insert(codoncount, "GCC", (TrieValue) 0);
+    trie_insert(codoncount, "GCA", (TrieValue) 0);
+    trie_insert(codoncount, "GCG", (TrieValue) 0);
+    trie_insert(codoncount, "GAT", (TrieValue) 0);
+    trie_insert(codoncount, "GAC", (TrieValue) 0);
+    trie_insert(codoncount, "GAA", (TrieValue) 0);
+    trie_insert(codoncount, "GAG", (TrieValue) 0);
+    trie_insert(codoncount, "GGT", (TrieValue) 0);
+    trie_insert(codoncount, "GGC", (TrieValue) 0);
+    trie_insert(codoncount, "GGA", (TrieValue) 0);
+    trie_insert(codoncount, "GGG", (TrieValue) 0);
+
     long seq_length = strlen(sequence) - 2;
     char *c = codon;
 
@@ -110,15 +176,8 @@ char * count_codons(const char * source, const char * definition, const char * v
         if (invalid == 1) { continue; }
 
         TrieValue currentcount = trie_lookup(codoncount, codon);
-
-        if (currentcount == TRIE_NULL)
-            trie_insert(codoncount, codon, (TrieValue) 1);
-        else
-        {
-            long current = (long) currentcount + 1;
-            currentcount = (TrieValue) current;
-            trie_insert(codoncount, codon, currentcount);
-        }
+        long current = (long) currentcount + 1;
+        trie_insert(codoncount, codon, (TrieValue) current);      
     }
 
     return return_json(codoncount, source, definition, version, taxon, seq_length+2);

@@ -3,7 +3,7 @@ UNAME := $(shell uname)
 CC = gcc
 
 ifeq ($(UNAME), Darwin)
-CC = gcc-4.2
+CC = gcc
 endif
 
 prefix=${HOME}
