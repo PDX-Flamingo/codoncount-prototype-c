@@ -1,6 +1,10 @@
 #codonpdx - Team (F)lamingo
 ###Prototype CodonCount in C
 
+## Deprecation Notice
+
+This repository has been deprecated in favor of [codonpdx-python](https://github.com/PDX-Flamingo/codonpdx-python) and is no longer maintained.
+
 #### Libraries
 
 ```
